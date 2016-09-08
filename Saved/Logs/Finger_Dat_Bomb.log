@@ -1,9 +1,9 @@
-﻿Log file open, 09/07/16 15:23:10
+﻿Log file open, 09/08/16 13:59:44
 LogInit:Display: Running engine for game: Finger_Dat_Bomb
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(588927232) SRandInit(588927234).
+LogInit:Display: RandInit(1276742095) SRandInit(1276742096).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.062597
+LogStats: Stats thread started at 0.074085
 LeapPluginLog: Using LeapPlugin version 2.0.0
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
@@ -26,8 +26,8 @@ LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
-LogInit: Command line: 
-LogInit: Base directory: D:/4.12/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -45,361 +45,638 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.09.07-03.23.10:192][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.07-03.23.10:192][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.09.07-03.23.10:201][  0]LogInit: Computer: 1806C021
-[2016.09.07-03.23.10:202][  0]LogInit: User: danielpri6453
-[2016.09.07-03.23.10:202][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.09.07-03.23.10:202][  0]LogInit: High frequency timer resolution =3.312656 MHz
-[2016.09.07-03.23.10:202][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.09.07-03.23.10:202][  0]LogMemory: Platform Memory Stats for Windows
-[2016.09.07-03.23.10:202][  0]LogMemory: Process Physical Memory: 194.34 MB used, 194.34 MB peak
-[2016.09.07-03.23.10:202][  0]LogMemory: Process Virtual Memory: 198.25 MB used, 198.25 MB peak
-[2016.09.07-03.23.10:202][  0]LogMemory: Physical Memory: 7253.71 MB used, 16271.12 MB total
-[2016.09.07-03.23.10:202][  0]LogMemory: Virtual Memory: 584.58 MB used, 8388608.00 MB total
-[2016.09.07-03.23.10:230][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
-[2016.09.07-03.23.10:579][  0]LogD3D11RHI: D3D11 adapters:
-[2016.09.07-03.23.10:594][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
-[2016.09.07-03.23.10:594][  0]LogD3D11RHI:       1990/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2016.09.07-03.23.10:594][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.09.07-03.23.10:599][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.09.07-03.23.10:599][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
-[2016.09.07-03.23.10:599][  0]LogWindows: EnumDisplayDevices:
-[2016.09.07-03.23.10:599][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
-[2016.09.07-03.23.10:599][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
-[2016.09.07-03.23.10:599][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2016.09.07-03.23.10:599][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2016.09.07-03.23.10:599][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2016.09.07-03.23.10:599][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.09.07-03.23.10:600][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.09.07-03.23.10:600][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
-[2016.09.07-03.23.10:600][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2016.09.07-03.23.10:600][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
-[2016.09.07-03.23.10:600][  0]LogD3D11RHI:   Driver Version: 347.88 (internal:9.18.13.4788, unified:347.88)
-[2016.09.07-03.23.10:600][  0]LogD3D11RHI:      Driver Date: 3-13-2015
-[2016.09.07-03.23.10:600][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.09.07-03.23.10:606][  0]LogD3D11RHI: Async texture creation enabled
-[2016.09.07-03.23.10:620][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.09.07-03.23.10:620][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/Intermediate/Shaders/WorkingDirectory/3716/).
-[2016.09.07-03.23.10:620][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/DANIEL~1.PRI/AppData/Local/Temp/UnrealShaderWorkingDir/A8674EBD43B33845E1D02E95CB39811E/'.
-[2016.09.07-03.23.10:620][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.09.07-03.23.11:388][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.09.07-03.23.11:396][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.09.07-03.23.11:405][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.09.07-03.23.11:413][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.09.07-03.23.11:422][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.09.07-03.23.11:429][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.09.07-03.23.11:435][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.09.07-03.23.11:442][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.09.07-03.23.11:450][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.09.07-03.23.11:456][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.09.07-03.23.11:462][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.09.07-03.23.11:476][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.09.07-03.23.11:476][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.09.07-03.23.11:476][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.09.07-03.23.11:495][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.09.07-03.23.11:501][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.09.07-03.23.11:508][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.09.07-03.23.11:514][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.09.07-03.23.11:522][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.09.07-03.23.11:522][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.09.07-03.23.11:570][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.09.07-03.23.11:616][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.07-03.23.11:617][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.09.07-03.23.11:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.09.07-03.23.11:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.09.07-03.23.11:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.09.07-03.23.11:617][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.09.07-03.23.11:633][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.09.07-03.23.11:643][  0]LogDerivedDataCache: Using Local data cache path D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.09.07-03.23.11:792][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.07-03.23.11:792][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.09.07-03.23.11:924][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.09.07-03.23.11:924][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.09.07-03.23.11:924][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.09.07-03.23.12:189][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
-[2016.09.07-03.23.12:228][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.036806 seconds
-[2016.09.07-03.23.12:233][  0]LogUObjectArray: 29424 objects as part of root set at end of initial load.
-[2016.09.07-03.23.12:233][  0]LogUObjectAllocator: 5972752 out of 0 bytes used by permanent object pool.
-[2016.09.07-03.23.12:233][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.09.07-03.23.12:240][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.09.07-03.23.12:382][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.07-03.23.12:382][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.07-03.23.12:930][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.09.07-03.23.13:103][  0]SourceControl: Info Source control is disabled
-[2016.09.07-03.23.13:104][  0]SourceControl: Info Source control is disabled
-[2016.09.07-03.23.13:108][  0]SourceControl: Info Source control is disabled
-[2016.09.07-03.23.13:112][  0]SourceControl: Info Source control is disabled
-[2016.09.07-03.23.13:241][  0]LogEngine: Initializing Engine...
-[2016.09.07-03.23.13:242][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.09.07-03.23.13:243][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.09.07-03.23.13:363][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.09.07-03.23.13:367][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.07-03.23.13:383][  0]LogInit: FAudioDevice initialized.
-[2016.09.07-03.23.13:408][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.07-03.23.13:413][  0]LogInit: Texture streaming: Enabled
-[2016.09.07-03.23.13:428][  0]LogInit: Transaction tracking system initialized
-[2016.09.07-03.23.13:443][  0]BlueprintLog: New page: Editor Load
-[2016.09.07-03.23.13:496][  0]LocalizationService: Info Localization service is disabled
-[2016.09.07-03.23.13:538][  0]LogConsoleResponse:Display: 
-[2016.09.07-03.23.13:619][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.09.07-03.23.13:619][  0]LogCook:Display: Mobile HDR setting 1
-[2016.09.07-03.23.13:677][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/Content/' took 0.01s
-[2016.09.07-03.23.13:677][  0]SourceControl: Info Source control is disabled
-[2016.09.07-03.23.13:677][  0]Cmd: MAP LOAD FILE="F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.09.07-03.23.13:677][  0]LightingResults: New page: Lighting Build
-[2016.09.07-03.23.13:679][  0]MapCheck: New page: Map Check
-[2016.09.07-03.23.13:679][  0]LightingResults: New page: Lighting Build
-[2016.09.07-03.23.14:053][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.09.07-03.23.14:062][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.09.07-03.23.14:062][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.09.07-03.23.14:085][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.099ms to complete.
-[2016.09.07-03.23.14:085][  0]LogFileHelpers: Loading map 'Untitled' took 0.408
-[2016.09.07-03.23.14:207][  0]LogCollectionManager: Loaded 0 collections in 0.001268 seconds
-[2016.09.07-03.23.14:246][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/Saved/Collections/' took 0.01s
-[2016.09.07-03.23.14:246][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/Content/Developers/danielpri6453/Collections/' took 0.01s
-[2016.09.07-03.23.14:246][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal Engine 4/Unreal Projects/Leap_motion-master 4.12 - 2/Content/Collections/' took 0.01s
-[2016.09.07-03.23.14:246][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.09.07-03.23.14:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2074 classes and 373 folders.
-[2016.09.07-03.23.14:257][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.09.07-03.23.14:257][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.09.07-03.23.14:258][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.09.07-03.23.14:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.09.07-03.23.14:289][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.09.07-03.23.14:291][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.09.07-03.23.14:336][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.09.07-03.23.14:340][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.09.07-03.23.14:363][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.09.07-03.23.14:363][  0]LogLoad: Full Startup: 4.68 seconds (BP compile: 0.08 seconds)
-[2016.09.07-03.23.14:363][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.09.07-03.23.14:363][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.09.07-03.23.14:372][  0]LogOcInput: OculusInput pre-init called
-[2016.09.07-03.23.14:391][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.09.07-03.23.14:524][  0]LogRenderer: Reallocating scene render targets to support 804x540 (Frame:2).
-[2016.09.07-03.23.14:702][  2]LogAssetRegistry: Asset discovery search completed in 2.5329 seconds
-[2016.09.07-03.23.14:702][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.09.07-03.23.14:702][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.09.07-04.19.47:726][586]Cmd: QUIT_EDITOR
-[2016.09.07-04.19.47:799][586]LogExit: Preparing to exit.
-[2016.09.07-04.19.48:321][586]LogExit: Editor shut down
-[2016.09.07-04.19.48:322][586]LogExit: Transaction tracking system shut down
-[2016.09.07-04.19.48:425][586]LogObj: Freed 0b from 0 cluster array pools.
-[2016.09.07-04.19.48:425][586]LogExit: Object subsystem successfully closed.
-[2016.09.07-04.19.48:437][586]LogD3D11RHI: Shutdown
-[2016.09.07-04.19.48:437][586]LogD3D11RHI: CleanupD3DDevice
-[2016.09.07-04.19.48:476][586]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.09.07-04.19.48:481][586]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
-[2016.09.07-04.19.48:481][586]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
-[2016.09.07-04.19.48:481][586]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
-[2016.09.07-04.19.48:481][586]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
-[2016.09.07-04.19.48:481][586]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module StatsViewer (206)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module FoliageEdit (205)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module LandscapeEditor (204)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (203)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module ActorPickerMode (202)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module GeometryMode (201)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module TextureAlignMode (200)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module BspMode (199)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module HardwareSurvey (198)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (197)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module SequenceRecorder (196)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module AutomationWorker (195)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (194)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module PlacementMode (193)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (192)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module CharacterAI (191)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module SmartSnapping (190)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module SessionServices (189)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module ViewportSnapping (188)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module LogVisualizer (187)
-[2016.09.07-04.19.48:484][586]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (186)
-[2016.09.07-04.19.48:485][586]LogModuleManager: Shutting down and abandoning module IntroTutorials (185)
-[2016.09.07-04.19.48:485][586]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (184)
-[2016.09.07-04.19.48:485][586]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (183)
-[2016.09.07-04.19.48:485][586]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (182)
-[2016.09.07-04.19.48:485][586]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (181)
-[2016.09.07-04.19.48:772][586]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (180)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (179)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (178)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module MergeActors (177)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module SizeMap (176)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module TreeMap (175)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module ReferenceViewer (174)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module LocalizationService (173)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (172)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module HardwareTargeting (171)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (170)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module UndoHistory (169)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module UserFeedback (168)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module XmlParser (167)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module Blutility (166)
-[2016.09.07-04.19.48:773][586]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (165)
-[2016.09.07-04.19.48:774][586]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (164)
-[2016.09.07-04.19.48:774][586]LogModuleManager: Shutting down and abandoning module InputBindingEditor (163)
-[2016.09.07-04.19.48:774][586]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (162)
-[2016.09.07-04.19.48:774][586]LogModuleManager: Shutting down and abandoning module SettingsEditor (161)
-[2016.09.07-04.19.48:774][586]LogModuleManager: Shutting down and abandoning module ProjectLauncher (160)
-[2016.09.07-04.19.48:774][586]LogModuleManager: Shutting down and abandoning module SessionFrontend (159)
-[2016.09.07-04.19.48:775][586]LogModuleManager: Shutting down and abandoning module ProfilerClient (158)
-[2016.09.07-04.19.48:775][586]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (157)
-[2016.09.07-04.19.48:775][586]LogModuleManager: Shutting down and abandoning module DeviceManager (156)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module AutomationController (155)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module AutomationWindow (154)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module Layers (153)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (152)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module DetailCustomizations (151)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module PackagesDialog (150)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module Persona (149)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module Kismet (148)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module GraphEditor (147)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module ClassViewer (146)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module Toolbox (145)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module ModuleUI (144)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module MovieSceneTools (143)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module OutputLog (142)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module GammaUI (141)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module Documentation (140)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (139)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module AnalyticsET (138)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module Analytics (137)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module PortalServices (136)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module PortalRpc (135)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module MessagingRpc (134)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module GameplayDebugger (133)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module AIModule (131)
-[2016.09.07-04.19.48:825][586]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module TaskGraph (129)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SteamVR (126)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module OculusInput (123)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module CableComponent (121)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
-[2016.09.07-04.19.48:973][586]LogModuleManager: Shutting down and abandoning module HotReload (100)
-[2016.09.07-04.19.48:974][586]LogModuleManager: Shutting down and abandoning module MainFrame (99)
-[2016.09.07-04.19.48:974][586]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
-[2016.09.07-04.19.48:974][586]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
-[2016.09.07-04.19.48:975][586]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
-[2016.09.07-04.19.48:975][586]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
-[2016.09.07-04.19.49:075][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2016.09.07-04.19.49:075][586]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2016.09.07-04.19.49:075][586]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2016.09.07-04.19.49:075][586]LogModuleManager: Shutting down and abandoning module Media (91)
-[2016.09.07-04.19.49:075][586]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module VREditor (85)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
-[2016.09.07-04.19.49:076][586]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module Sequencer (79)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module MessageLog (77)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module AssetTools (76)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module UMG (74)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module Slate (72)
-[2016.09.07-04.19.49:077][586]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
-[2016.09.07-04.19.49:084][586]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
-[2016.09.07-04.19.49:084][586]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
-[2016.09.07-04.19.49:084][586]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
-[2016.09.07-04.19.49:084][586]LogModuleManager: Shutting down and abandoning module Networking (66)
-[2016.09.07-04.19.49:084][586]LogModuleManager: Shutting down and abandoning module Core (65)
-[2016.09.07-04.19.49:084][586]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
-[2016.09.07-04.19.49:086][586]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
-[2016.09.07-04.19.49:631][586]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
-[2016.09.07-04.19.49:631][586]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
-[2016.09.07-04.19.49:631][586]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
-[2016.09.07-04.19.49:631][586]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
-[2016.09.07-04.19.49:657][586]LogDerivedDataCache: Shutdown
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Messaging (40)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module InputCore (23)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module Settings (22)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
-[2016.09.07-04.19.49:657][586]LogModuleManager: Shutting down and abandoning module HTTP (19)
-[2016.09.07-04.19.51:157][586]LogModuleManager: Shutting down and abandoning module XMPP (18)
-[2016.09.07-04.19.51:157][586]LogModuleManager: Shutting down and abandoning module OculusRift (17)
-[2016.09.07-04.19.51:157][586]LogModuleManager: Shutting down and abandoning module LeapMotion (16)
-[2016.09.07-04.19.51:157][586]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.09.07-04.19.51:158][586]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.09.07-04.19.51:159][586]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.09.07-04.19.51:160][586]LogExit: Exiting.
-[2016.09.07-04.19.51:162][586]Log file closed, 09/07/16 16:19:51
+[2016.09.08-01.59.44:151][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.08-01.59.44:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.08-01.59.44:161][  0]LogInit: Computer: DESKTOP-7582OSN
+[2016.09.08-01.59.44:161][  0]LogInit: User: Daxadventures
+[2016.09.08-01.59.44:161][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.08-01.59.44:161][  0]LogInit: High frequency timer resolution =3.312642 MHz
+[2016.09.08-01.59.44:161][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.09.08-01.59.44:162][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.08-01.59.44:162][  0]LogMemory: Process Physical Memory: 192.43 MB used, 192.43 MB peak
+[2016.09.08-01.59.44:162][  0]LogMemory: Process Virtual Memory: 196.03 MB used, 196.03 MB peak
+[2016.09.08-01.59.44:162][  0]LogMemory: Physical Memory: 6494.42 MB used, 16274.07 MB total
+[2016.09.08-01.59.44:162][  0]LogMemory: Virtual Memory: 607.16 MB used, 134217728.00 MB total
+[2016.09.08-01.59.44:212][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2016.09.08-01.59.44:579][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.08-01.59.44:619][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2016.09.08-01.59.44:619][  0]LogD3D11RHI:       2017/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.08-01.59.44:627][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.09.08-01.59.44:627][  0]LogD3D11RHI:       112/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.09.08-01.59.44:630][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.08-01.59.44:631][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.08-01.59.44:631][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.08-01.59.44:635][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.08-01.59.44:635][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.08-01.59.44:636][  0]LogWindows: EnumDisplayDevices:
+[2016.09.08-01.59.44:636][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2016.09.08-01.59.44:636][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.08-01.59.44:636][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.08-01.59.44:636][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.08-01.59.44:636][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.08-01.59.44:637][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.08-01.59.44:637][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.08-01.59.44:637][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.09.08-01.59.44:637][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2016.09.08-01.59.44:637][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2016.09.08-01.59.44:637][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2016.09.08-01.59.44:637][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.08-01.59.44:652][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.08-01.59.44:668][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.09.08-01.59.44:668][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Intermediate/Shaders/WorkingDirectory/11736/).
+[2016.09.08-01.59.44:668][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DAXADV~1/AppData/Local/Temp/UnrealShaderWorkingDir/56BDC35441F8707631FC21AAAECF4633/'.
+[2016.09.08-01.59.44:668][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.08-01.59.50:265][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.08-01.59.50:336][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.08-01.59.50:394][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.08-01.59.50:424][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.08-01.59.50:460][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.08-01.59.50:502][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.08-01.59.50:531][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.08-01.59.50:564][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.08-01.59.50:594][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.08-01.59.50:623][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.08-01.59.50:657][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.08-01.59.50:723][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.08-01.59.50:723][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.08-01.59.50:748][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.08-01.59.50:900][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.08-01.59.50:951][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.08-01.59.51:011][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.08-01.59.51:053][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.08-01.59.51:129][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.08-01.59.51:129][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.08-01.59.52:528][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.08-01.59.52:717][  0]LogDerivedDataCache: Loaded boot cache 0.19s 48MB C:/Users/Daxadventures/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.08-01.59.52:717][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Daxadventures/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.08-01.59.52:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.08-01.59.52:717][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.08-01.59.52:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.08-01.59.52:717][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.08-01.59.52:772][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.08-01.59.52:784][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daxadventures/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.08-02.00.00:121][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.08-02.00.00:163][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.08-02.00.01:404][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.08-02.00.01:404][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.08-02.00.01:404][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.08-02.00.03:917][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.09.08-02.00.03:943][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.022396 seconds
+[2016.09.08-02.00.03:987][  0]LogUObjectArray: 29424 objects as part of root set at end of initial load.
+[2016.09.08-02.00.03:987][  0]LogUObjectAllocator: 5972752 out of 0 bytes used by permanent object pool.
+[2016.09.08-02.00.03:987][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.08-02.00.04:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.08-02.00.08:300][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.08-02.00.08:300][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.08-02.00.38:397][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.08-02.00.39:298][  0]SourceControl: Info Source control is disabled
+[2016.09.08-02.00.39:298][  0]SourceControl: Info Source control is disabled
+[2016.09.08-02.00.39:305][  0]SourceControl: Info Source control is disabled
+[2016.09.08-02.00.39:349][  0]SourceControl: Info Source control is disabled
+[2016.09.08-02.00.40:481][  0]LogEngine: Initializing Engine...
+[2016.09.08-02.00.41:229][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.09.08-02.00.41:260][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.09.08-02.00.42:205][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.08-02.00.42:741][  0]LogInit: XAudio2 using 'Headset Earphone (Plantronics RIG)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.08-02.00.42:778][  0]LogInit: FAudioDevice initialized.
+[2016.09.08-02.00.42:801][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Daxadventures/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.08-02.00.42:809][  0]LogInit: Texture streaming: Enabled
+[2016.09.08-02.00.43:444][  0]LogInit: Transaction tracking system initialized
+[2016.09.08-02.00.43:678][  0]BlueprintLog: New page: Editor Load
+[2016.09.08-02.00.45:250][  0]LocalizationService: Info Localization service is disabled
+[2016.09.08-02.00.46:097][  0]LogConsoleResponse:Display: 
+[2016.09.08-02.00.47:186][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.08-02.00.47:186][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.08-02.00.48:174][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/' took 0.01s
+[2016.09.08-02.00.49:054][  0]SourceControl: Info Source control is disabled
+[2016.09.08-02.00.49:054][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.08-02.00.49:054][  0]LightingResults: New page: Lighting Build
+[2016.09.08-02.00.49:328][  0]MapCheck: New page: Map Check
+[2016.09.08-02.00.49:328][  0]LightingResults: New page: Lighting Build
+[2016.09.08-02.00.51:416][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.09.08-02.00.52:156][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.08-02.00.52:207][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.08-02.00.52:237][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.741ms to complete.
+[2016.09.08-02.00.52:237][  0]LogFileHelpers: Loading map 'Untitled' took 3.183
+[2016.09.08-02.00.52:631][  0]LogCollectionManager: Loaded 0 collections in 0.001330 seconds
+[2016.09.08-02.00.52:669][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/Collections/' took 0.01s
+[2016.09.08-02.00.52:669][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Developers/Daxadventures/Collections/' took 0.01s
+[2016.09.08-02.00.52:669][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Collections/' took 0.01s
+[2016.09.08-02.00.52:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.09.08-02.00.52:677][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2074 classes and 373 folders.
+[2016.09.08-02.00.52:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.08-02.00.52:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.08-02.00.52:680][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.09.08-02.00.52:685][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.08-02.00.53:741][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.09.08-02.00.53:800][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.09.08-02.00.53:856][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.08-02.00.54:145][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.09.08-02.00.54:145][  0]LogLoad: Full Startup: 70.63 seconds (BP compile: 0.21 seconds)
+[2016.09.08-02.00.54:145][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.08-02.00.54:145][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.08-02.00.54:524][  0]LogOcInput: OculusInput pre-init called
+[2016.09.08-02.00.54:635][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.08-02.00.55:010][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.09.08-02.00.55:802][  3]LogAssetRegistry: Asset discovery search completed in 51.9060 seconds
+[2016.09.08-02.00.55:802][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.08-02.00.55:802][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2016.09.08-02.05.33:689][ 81]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.09.08-02.05.33:787][ 81]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2016.09.08-02.05.33:798][ 81]LogMaterial: Missing cached shader map for material Dark_Grey, compiling. 
+[2016.09.08-02.05.33:824][ 81]LogStaticMesh: Building static mesh bomb1...
+[2016.09.08-02.05.33:860][ 81]LogStaticMesh: Built static mesh [0.05s] /Game/Bomb_Parts/bomb1.bomb1
+[2016.09.08-02.05.46:744][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/blueButton.fbx)
+[2016.09.08-02.05.46:757][180]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.09.08-02.05.46:757][180]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.09.08-02.05.46:757][180]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.09.08-02.05.46:757][180]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.09.08-02.05.46:757][180]LogFbx: ItemName: Material, ItemCount : 1
+[2016.09.08-02.05.46:757][180]LogFbx: ItemName: Model, ItemCount : 1
+[2016.09.08-02.05.46:762][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/blueButton.fbx
+[2016.09.08-02.05.46:767][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.51:490][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/blueButton.fbx
+[2016.09.08-02.05.51:496][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.51:498][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/blue'
+[2016.09.08-02.05.51:498][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/blue'
+[2016.09.08-02.05.51:501][180]LogMaterial: Missing cached shader map for material blue, compiling. 
+[2016.09.08-02.05.51:532][180]LogFbx:Warning: Triangulating static mesh blueButton
+[2016.09.08-02.05.51:565][180]LogStaticMesh: Building static mesh blueButton...
+[2016.09.08-02.05.51:570][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/blueButton.blueButton
+[2016.09.08-02.05.51:600][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_a.fbx)
+[2016.09.08-02.05.51:611][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_a.fbx
+[2016.09.08-02.05.51:618][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.51:621][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/Dark_Grey'
+[2016.09.08-02.05.51:621][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/Dark_Grey'
+[2016.09.08-02.05.51:623][180]LogMaterial: Missing cached shader map for material Dark_Grey, compiling. 
+[2016.09.08-02.05.51:634][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/Black'
+[2016.09.08-02.05.51:634][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/Black'
+[2016.09.08-02.05.51:636][180]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2016.09.08-02.05.51:646][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/lambert1'
+[2016.09.08-02.05.51:646][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/lambert1'
+[2016.09.08-02.05.51:649][180]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.09.08-02.05.51:659][180]LogFbx:Warning: Triangulating static mesh bomb_a
+[2016.09.08-02.05.51:815][180]LogStaticMesh: Building static mesh bomb_a...
+[2016.09.08-02.05.51:840][180]LogStaticMesh: Built static mesh [0.03s] /Game/Bomb_Parts/bomb_a.bomb_a
+[2016.09.08-02.05.51:854][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_a_Lid.fbx)
+[2016.09.08-02.05.51:863][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_a_Lid.fbx
+[2016.09.08-02.05.51:868][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.51:870][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/Yellow'
+[2016.09.08-02.05.51:870][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/Yellow'
+[2016.09.08-02.05.51:873][180]LogMaterial: Missing cached shader map for material Yellow, compiling. 
+[2016.09.08-02.05.51:883][180]LogFbx:Warning: Triangulating static mesh bomb_a_Lid
+[2016.09.08-02.05.51:948][180]LogStaticMesh: Building static mesh bomb_a_Lid...
+[2016.09.08-02.05.51:959][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/bomb_a_Lid.bomb_a_Lid
+[2016.09.08-02.05.51:969][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_a_Panel.fbx)
+[2016.09.08-02.05.51:978][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_a_Panel.fbx
+[2016.09.08-02.05.51:983][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.51:985][180]LogFbx:Warning: Triangulating static mesh bomb_a_Panel
+[2016.09.08-02.05.51:988][180]LogStaticMesh: Building static mesh bomb_a_Panel...
+[2016.09.08-02.05.51:991][180]LogStaticMesh: Built static mesh [0.00s] /Game/Bomb_Parts/bomb_a_Panel.bomb_a_Panel
+[2016.09.08-02.05.51:999][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_b.fbx)
+[2016.09.08-02.05.52:007][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_b.fbx
+[2016.09.08-02.05.52:013][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:015][180]LogFbx:Warning: Triangulating static mesh bomb_b
+[2016.09.08-02.05.52:112][180]LogStaticMesh: Building static mesh bomb_b...
+[2016.09.08-02.05.52:130][180]LogStaticMesh: Built static mesh [0.02s] /Game/Bomb_Parts/bomb_b.bomb_b
+[2016.09.08-02.05.52:141][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_b_Lid.fbx)
+[2016.09.08-02.05.52:149][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_b_Lid.fbx
+[2016.09.08-02.05.52:155][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:157][180]LogFbx:Warning: Triangulating static mesh bomb_b_Lid
+[2016.09.08-02.05.52:206][180]LogStaticMesh: Building static mesh bomb_b_Lid...
+[2016.09.08-02.05.52:219][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/bomb_b_Lid.bomb_b_Lid
+[2016.09.08-02.05.52:228][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_b_Panel.fbx)
+[2016.09.08-02.05.52:236][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_b_Panel.fbx
+[2016.09.08-02.05.52:241][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:249][180]LogFbx:Warning: Triangulating static mesh bomb_b_Panel
+[2016.09.08-02.05.52:256][180]LogStaticMesh: Building static mesh bomb_b_Panel...
+[2016.09.08-02.05.52:263][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/bomb_b_Panel.bomb_b_Panel
+[2016.09.08-02.05.52:270][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_c.fbx)
+[2016.09.08-02.05.52:278][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_c.fbx
+[2016.09.08-02.05.52:285][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:287][180]LogFbx:Warning: Triangulating static mesh bomb_c
+[2016.09.08-02.05.52:474][180]LogStaticMesh: Building static mesh bomb_c...
+[2016.09.08-02.05.52:524][180]LogStaticMesh: Built static mesh [0.05s] /Game/Bomb_Parts/bomb_c.bomb_c
+[2016.09.08-02.05.52:538][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_c_Lid.fbx)
+[2016.09.08-02.05.52:547][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_c_Lid.fbx
+[2016.09.08-02.05.52:552][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:555][180]LogFbx:Warning: Triangulating static mesh bomb_c_Lid
+[2016.09.08-02.05.52:629][180]LogStaticMesh: Building static mesh bomb_c_Lid...
+[2016.09.08-02.05.52:641][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/bomb_c_Lid.bomb_c_Lid
+[2016.09.08-02.05.52:650][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_c_Panel.fbx)
+[2016.09.08-02.05.52:658][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/bomb_c_Panel.fbx
+[2016.09.08-02.05.52:664][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:666][180]LogFbx:Warning: Triangulating static mesh bomb_c_Panel
+[2016.09.08-02.05.52:685][180]LogStaticMesh: Building static mesh bomb_c_Panel...
+[2016.09.08-02.05.52:695][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/bomb_c_Panel.bomb_c_Panel
+[2016.09.08-02.05.52:705][180]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/Capture2.PNG)
+[2016.09.08-02.05.52:709][180]LogTexture:Display: Building textures: Capture2 (AutoDXT)
+[2016.09.08-02.05.52:731][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/redButton.fbx)
+[2016.09.08-02.05.52:740][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/redButton.fbx
+[2016.09.08-02.05.52:745][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:747][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/button'
+[2016.09.08-02.05.52:747][180]LogLinker:Warning: Can't find file '/Game/Bomb_Parts/button'
+[2016.09.08-02.05.52:750][180]LogMaterial: Missing cached shader map for material button, compiling. 
+[2016.09.08-02.05.52:760][180]LogFbx:Warning: Triangulating static mesh redButton
+[2016.09.08-02.05.52:776][180]LogStaticMesh: Building static mesh redButton...
+[2016.09.08-02.05.52:781][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/redButton.redButton
+[2016.09.08-02.05.52:785][180]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.09.08-02.05.52:792][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/wireL.fbx)
+[2016.09.08-02.05.52:802][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/wireL.fbx
+[2016.09.08-02.05.52:807][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:809][180]LogFbx:Warning: Triangulating static mesh wireL
+[2016.09.08-02.05.52:823][180]LogStaticMesh: Building static mesh wireL...
+[2016.09.08-02.05.52:828][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/wireL.wireL
+[2016.09.08-02.05.52:834][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/wireM.fbx)
+[2016.09.08-02.05.52:844][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/wireM.fbx
+[2016.09.08-02.05.52:849][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:851][180]LogFbx:Warning: Triangulating static mesh wireM
+[2016.09.08-02.05.52:864][180]LogStaticMesh: Building static mesh wireM...
+[2016.09.08-02.05.52:869][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/wireM.wireM
+[2016.09.08-02.05.52:872][180]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.09.08-02.05.52:875][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/wireS.fbx)
+[2016.09.08-02.05.52:893][180]LogFbx: Loading FBX Scene from ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Unimplemented Content/bombs/wireS.fbx
+[2016.09.08-02.05.52:899][180]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.08-02.05.52:901][180]LogFbx:Warning: Triangulating static mesh wireS
+[2016.09.08-02.05.52:913][180]LogStaticMesh: Building static mesh wireS...
+[2016.09.08-02.05.52:918][180]LogStaticMesh: Built static mesh [0.01s] /Game/Bomb_Parts/wireS.wireS
+[2016.09.08-02.05.52:923][180]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.09.08-02.06.37:850][313]LogActorFactory: Actor Factory created blueButton
+[2016.09.08-02.06.37:875][313]LogActorFactory: Actor Factory created bomb_a
+[2016.09.08-02.06.37:876][313]LogActorFactory: Actor Factory created bomb_a_Lid
+[2016.09.08-02.06.37:876][313]LogActorFactory: Actor Factory created bomb_a_Panel
+[2016.09.08-02.06.37:877][313]LogActorFactory: Actor Factory created redButton
+[2016.09.08-02.06.37:877][313]LogActorFactory: Actor Factory created wireL
+[2016.09.08-02.06.37:877][313]LogActorFactory: Actor Factory created wireM
+[2016.09.08-02.06.37:878][313]LogActorFactory: Actor Factory created wireS
+[2016.09.08-02.06.39:443][489]LogActorFactory: Actor Factory created blueButton
+[2016.09.08-02.06.39:549][489]LogActorFactory: Actor Factory created bomb_a
+[2016.09.08-02.06.39:568][489]LogActorFactory: Actor Factory created bomb_a_Lid
+[2016.09.08-02.06.39:587][489]LogActorFactory: Actor Factory created bomb_a_Panel
+[2016.09.08-02.06.39:601][489]LogActorFactory: Actor Factory created redButton
+[2016.09.08-02.06.39:615][489]LogActorFactory: Actor Factory created wireL
+[2016.09.08-02.06.39:629][489]LogActorFactory: Actor Factory created wireM
+[2016.09.08-02.06.39:643][489]LogActorFactory: Actor Factory created wireS
+[2016.09.08-02.07.01:494][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bomb_a_Lid)
+[2016.09.08-02.07.10:189][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bomb_a_Panel)
+[2016.09.08-02.07.12:263][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bomb_a)
+[2016.09.08-02.07.14:919][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (blueButton)
+[2016.09.08-02.07.18:552][870]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.18:552][870]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.18:921][901]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.18:921][901]LogEditorTransaction: Undo Clicking on Actors
+[2016.09.08-02.07.19:446][953]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.19:446][953]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.19:952][ 12]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.19:952][ 12]LogEditorTransaction: Undo Clicking on Actors
+[2016.09.08-02.07.20:438][ 66]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.20:438][ 66]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.21:768][223]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.21:768][223]LogEditorTransaction: Undo Clicking on Actors
+[2016.09.08-02.07.22:161][266]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.22:161][266]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.23:085][375]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.23:085][375]LogEditorTransaction: Undo Clicking on Actors
+[2016.09.08-02.07.23:734][447]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.23:734][447]LogEditorTransaction: Undo Rotate Actors
+[2016.09.08-02.07.23:736][447]LogActorComponent: ~FComponentReregisterContext: (/Game/Untitled.Untitled:PersistentLevel.bomb_a_Panel_15.StaticMeshComponent0) Component already registered.
+[2016.09.08-02.07.24:345][518]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.24:345][518]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.24:348][518]LogActorComponent: ~FComponentReregisterContext: (/Game/Untitled.Untitled:PersistentLevel.bomb_a_Panel_15.StaticMeshComponent0) Component already registered.
+[2016.09.08-02.07.24:776][567]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.24:776][567]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.24:779][567]LogActorComponent: ~FComponentReregisterContext: (/Game/Untitled.Untitled:PersistentLevel.bomb_a_Panel_15.StaticMeshComponent0) Component already registered.
+[2016.09.08-02.07.25:133][609]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.25:133][609]LogEditorTransaction: Undo Move Actors
+[2016.09.08-02.07.25:135][609]LogActorComponent: ~FComponentReregisterContext: (/Game/Untitled.Untitled:PersistentLevel.bomb_a_Panel_15.StaticMeshComponent0) Component already registered.
+[2016.09.08-02.07.25:485][650]Cmd: TRANSACTION UNDO
+[2016.09.08-02.07.25:485][650]LogEditorTransaction: Undo Create Actors
+[2016.09.08-02.07.29:116][ 27]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.09.08-02.07.37:733][886]LogRenderer: Reallocating scene render targets to support 1432x924 (Frame:20138).
+[2016.09.08-02.09.27:406][727]LogActorFactory: Actor Factory created bomb_a
+[2016.09.08-02.09.27:406][727]LogActorFactory: Actor Factory created bomb_a_Lid
+[2016.09.08-02.09.27:406][727]LogActorFactory: Actor Factory created bomb_a_Panel
+[2016.09.08-02.09.28:362][838]LogActorFactory: Actor Factory created bomb_a
+[2016.09.08-02.09.28:377][838]LogActorFactory: Actor Factory created bomb_a_Lid
+[2016.09.08-02.09.28:391][838]LogActorFactory: Actor Factory created bomb_a_Panel
+[2016.09.08-02.09.44:165][467]LogActorFactory: Actor Factory created bomb_b
+[2016.09.08-02.09.44:165][467]LogActorFactory: Actor Factory created bomb_b_Lid
+[2016.09.08-02.09.44:166][467]LogActorFactory: Actor Factory created bomb_b_Panel
+[2016.09.08-02.09.44:767][528]LogActorFactory: Actor Factory created bomb_b
+[2016.09.08-02.09.44:780][528]LogActorFactory: Actor Factory created bomb_b_Lid
+[2016.09.08-02.09.44:795][528]LogActorFactory: Actor Factory created bomb_b_Panel
+[2016.09.08-02.10.05:254][706]LogActorFactory: Actor Factory created bomb_c
+[2016.09.08-02.10.05:254][706]LogActorFactory: Actor Factory created bomb_c_Lid
+[2016.09.08-02.10.05:255][706]LogActorFactory: Actor Factory created bomb_c_Panel
+[2016.09.08-02.10.06:154][797]LogActorFactory: Actor Factory created bomb_c
+[2016.09.08-02.10.06:169][797]LogActorFactory: Actor Factory created bomb_c_Lid
+[2016.09.08-02.10.06:181][797]LogActorFactory: Actor Factory created bomb_c_Panel
+[2016.09.08-02.10.21:220][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bomb_b_Lid)
+[2016.09.08-02.10.32:574][578]LogSavePackage: Save=94.42ms
+[2016.09.08-02.10.32:574][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/Untitled6DCE25D24E514A73010BFB8D53ED5FDF.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Untitled.umap'
+[2016.09.08-02.10.32:575][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Untitled.umap
+[2016.09.08-02.10.32:606][578]LogFileHelpers: Saving map 'Untitled' took 0.173
+[2016.09.08-02.10.32:628][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/Dark_Grey" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Dark_Grey.uasset" SILENT=true
+[2016.09.08-02.10.32:643][578]LogSavePackage: Save=13.66ms
+[2016.09.08-02.10.32:643][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/Dark_GreyAB84F95F415CC2914C5827ABD212EE81.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Dark_Grey.uasset'
+[2016.09.08-02.10.32:645][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Dark_Grey.uasset
+[2016.09.08-02.10.32:660][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/bomb_a" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a.uasset" SILENT=true
+[2016.09.08-02.10.32:673][578]LogSavePackage: Save=11.86ms
+[2016.09.08-02.10.32:673][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_a385D147C481B64037DCE8791B6DF42EC.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a.uasset'
+[2016.09.08-02.10.32:675][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a.uasset
+[2016.09.08-02.10.32:692][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/blue" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/blue.uasset" SILENT=true
+[2016.09.08-02.10.32:705][578]LogSavePackage: Save=12.42ms
+[2016.09.08-02.10.32:705][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/blue651F4BE44A8A924C9A2F8286D3D3AE27.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/blue.uasset'
+[2016.09.08-02.10.32:707][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/blue.uasset
+[2016.09.08-02.10.32:734][578]LogSavePackage: Save=10.96ms
+[2016.09.08-02.10.32:734][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/blueButtonA746267D4CBFB8200DEDDFAD2FC22F73.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/blueButton.uasset'
+[2016.09.08-02.10.32:736][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/blueButton.uasset
+[2016.09.08-02.10.32:751][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/Black" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Black.uasset" SILENT=true
+[2016.09.08-02.10.32:765][578]LogSavePackage: Save=12.56ms
+[2016.09.08-02.10.32:765][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/BlackE66FE74C408886514597EAB7806954E1.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Black.uasset'
+[2016.09.08-02.10.32:767][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Black.uasset
+[2016.09.08-02.10.32:782][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/lambert1" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/lambert1.uasset" SILENT=true
+[2016.09.08-02.10.32:807][578]LogSavePackage: Save=11.45ms
+[2016.09.08-02.10.32:807][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/lambert147B4288143DC05BA0A652BA0EC3879BD.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/lambert1.uasset'
+[2016.09.08-02.10.32:809][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/lambert1.uasset
+[2016.09.08-02.10.32:835][578]LogSavePackage: Save=10.62ms
+[2016.09.08-02.10.32:835][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_a_Lid6485A4F24555EB51AEA899ACC4368792.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a_Lid.uasset'
+[2016.09.08-02.10.32:837][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a_Lid.uasset
+[2016.09.08-02.10.32:854][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/Yellow" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Yellow.uasset" SILENT=true
+[2016.09.08-02.10.32:868][578]LogSavePackage: Save=12.30ms
+[2016.09.08-02.10.32:868][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/YellowFD33A2A247F28DBF87094EAC6A68EE60.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Yellow.uasset'
+[2016.09.08-02.10.32:869][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Yellow.uasset
+[2016.09.08-02.10.32:896][578]LogSavePackage: Save=10.59ms
+[2016.09.08-02.10.32:896][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_a_PanelA7E46902420F433230A73693F937D3C2.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a_Panel.uasset'
+[2016.09.08-02.10.32:898][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_a_Panel.uasset
+[2016.09.08-02.10.32:911][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/bomb_b" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b.uasset" SILENT=true
+[2016.09.08-02.10.32:924][578]LogSavePackage: Save=10.90ms
+[2016.09.08-02.10.32:924][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_b25A1F79F4DBD543A4E07A3861D56A74A.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b.uasset'
+[2016.09.08-02.10.32:926][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b.uasset
+[2016.09.08-02.10.32:953][578]LogSavePackage: Save=10.68ms
+[2016.09.08-02.10.32:953][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_b_LidC3CE66B94744E30F0739EE8CC31A3195.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b_Lid.uasset'
+[2016.09.08-02.10.32:954][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b_Lid.uasset
+[2016.09.08-02.10.32:980][578]LogSavePackage: Save=10.23ms
+[2016.09.08-02.10.32:980][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_b_Panel1A2EBD1C499921D466736796F4EEAC87.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b_Panel.uasset'
+[2016.09.08-02.10.32:981][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_b_Panel.uasset
+[2016.09.08-02.10.32:997][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/bomb_c" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c.uasset" SILENT=true
+[2016.09.08-02.10.33:009][578]LogSavePackage: Save=11.36ms
+[2016.09.08-02.10.33:009][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_c510B57A84CE55CA521EC98B926673AC6.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c.uasset'
+[2016.09.08-02.10.33:011][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c.uasset
+[2016.09.08-02.10.33:038][578]LogSavePackage: Save=10.73ms
+[2016.09.08-02.10.33:038][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_c_LidD59E6CCA489810DEEB58DA9DF7083288.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c_Lid.uasset'
+[2016.09.08-02.10.33:039][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c_Lid.uasset
+[2016.09.08-02.10.33:066][578]LogSavePackage: Save=10.52ms
+[2016.09.08-02.10.33:066][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/bomb_c_Panel555DE1234D385975BBE216AEBB86AF93.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c_Panel.uasset'
+[2016.09.08-02.10.33:067][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/bomb_c_Panel.uasset
+[2016.09.08-02.10.33:076][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/Capture2" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Capture2.uasset" SILENT=true
+[2016.09.08-02.10.33:090][578]LogSavePackage: Save=12.63ms
+[2016.09.08-02.10.33:090][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/Capture28CA36F70462BFD528668D9B5AF1EDDA4.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Capture2.uasset'
+[2016.09.08-02.10.33:091][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/Capture2.uasset
+[2016.09.08-02.10.33:106][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/redButton" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/redButton.uasset" SILENT=true
+[2016.09.08-02.10.33:118][578]LogSavePackage: Save=10.10ms
+[2016.09.08-02.10.33:118][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/redButtonC26F9DE549928D199831E3B49DEC3E63.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/redButton.uasset'
+[2016.09.08-02.10.33:119][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/redButton.uasset
+[2016.09.08-02.10.33:134][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/button" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/button.uasset" SILENT=true
+[2016.09.08-02.10.33:149][578]LogSavePackage: Save=13.22ms
+[2016.09.08-02.10.33:149][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/buttonC63B0C534A3D6F4D73B6D8B1BF7BFE81.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/button.uasset'
+[2016.09.08-02.10.33:151][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/button.uasset
+[2016.09.08-02.10.33:165][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/wireL" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireL.uasset" SILENT=true
+[2016.09.08-02.10.33:176][578]LogSavePackage: Save=9.74ms
+[2016.09.08-02.10.33:176][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/wireLA02154514C0EC8BCCA7AE58F3C06D629.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireL.uasset'
+[2016.09.08-02.10.33:177][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireL.uasset
+[2016.09.08-02.10.33:192][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/wireM" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireM.uasset" SILENT=true
+[2016.09.08-02.10.33:203][578]LogSavePackage: Save=10.01ms
+[2016.09.08-02.10.33:203][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/wireMB4647A14486736E69EF94B8963E62D9C.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireM.uasset'
+[2016.09.08-02.10.33:204][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireM.uasset
+[2016.09.08-02.10.33:219][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomb_Parts/wireS" FILE="../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireS.uasset" SILENT=true
+[2016.09.08-02.10.33:229][578]LogSavePackage: Save=9.84ms
+[2016.09.08-02.10.33:230][578]LogSavePackage: Moving '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Saved/wireS38DC53A6479017553D1680A9A80A5EF0.tmp' to '../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireS.uasset'
+[2016.09.08-02.10.33:231][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Daxadventures/Documents/MDS RAPID PROTOTYPES/LeapMotion/Leap_motion/Content/Bomb_Parts/wireS.uasset
+[2016.09.08-02.10.40:322][300]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.08-02.10.40:540][301]Cmd: QUIT_EDITOR
+[2016.09.08-02.10.40:671][301]LogExit: Preparing to exit.
+[2016.09.08-02.10.41:773][301]LogExit: Editor shut down
+[2016.09.08-02.10.41:774][301]LogExit: Transaction tracking system shut down
+[2016.09.08-02.10.41:923][301]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.08-02.10.41:923][301]LogExit: Object subsystem successfully closed.
+[2016.09.08-02.10.41:938][301]LogD3D11RHI: Shutdown
+[2016.09.08-02.10.41:938][301]LogD3D11RHI: CleanupD3DDevice
+[2016.09.08-02.10.41:997][301]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (216)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module TextureEditor (215)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
+[2016.09.08-02.10.42:005][301]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module StatsViewer (206)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module FoliageEdit (205)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module LandscapeEditor (204)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (203)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module ActorPickerMode (202)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module GeometryMode (201)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module TextureAlignMode (200)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module BspMode (199)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module HardwareSurvey (198)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (197)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module SequenceRecorder (196)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module AutomationWorker (195)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (194)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module PlacementMode (193)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (192)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module CharacterAI (191)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module SmartSnapping (190)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module SessionServices (189)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module ViewportSnapping (188)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module LogVisualizer (187)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (186)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module IntroTutorials (185)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (184)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (183)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (182)
+[2016.09.08-02.10.42:006][301]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (181)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (180)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (179)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (178)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module MergeActors (177)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module SizeMap (176)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module TreeMap (175)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module ReferenceViewer (174)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module LocalizationService (173)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (172)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module HardwareTargeting (171)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (170)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module UndoHistory (169)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module UserFeedback (168)
+[2016.09.08-02.10.42:848][301]LogModuleManager: Shutting down and abandoning module XmlParser (167)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module Blutility (166)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (165)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (164)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module InputBindingEditor (163)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (162)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module SettingsEditor (161)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module ProjectLauncher (160)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module SessionFrontend (159)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module ProfilerClient (158)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (157)
+[2016.09.08-02.10.42:849][301]LogModuleManager: Shutting down and abandoning module DeviceManager (156)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module AutomationController (155)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module AutomationWindow (154)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module Layers (153)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (152)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module DetailCustomizations (151)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module PackagesDialog (150)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module Persona (149)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module Kismet (148)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module GraphEditor (147)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module ClassViewer (146)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module Toolbox (145)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module ModuleUI (144)
+[2016.09.08-02.10.42:903][301]LogModuleManager: Shutting down and abandoning module MovieSceneTools (143)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module OutputLog (142)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module GammaUI (141)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module Documentation (140)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (139)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module AnalyticsET (138)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module Analytics (137)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module PortalServices (136)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module PortalRpc (135)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module MessagingRpc (134)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module GameplayDebugger (133)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module AIModule (131)
+[2016.09.08-02.10.42:904][301]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module TaskGraph (129)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.09.08-02.10.42:994][301]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.09.08-02.10.42:995][301]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.09.08-02.10.42:996][301]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.09.08-02.10.42:996][301]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.09.08-02.10.42:996][301]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module Media (91)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module VREditor (85)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module Sequencer (79)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module MessageLog (77)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module AssetTools (76)
+[2016.09.08-02.10.43:097][301]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
+[2016.09.08-02.10.43:098][301]LogModuleManager: Shutting down and abandoning module UMG (74)
+[2016.09.08-02.10.43:098][301]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
+[2016.09.08-02.10.43:098][301]LogModuleManager: Shutting down and abandoning module Slate (72)
+[2016.09.08-02.10.43:098][301]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module Networking (66)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module Core (65)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
+[2016.09.08-02.10.43:100][301]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
+[2016.09.08-02.10.43:189][301]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
+[2016.09.08-02.10.43:189][301]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
+[2016.09.08-02.10.43:189][301]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
+[2016.09.08-02.10.43:189][301]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
+[2016.09.08-02.10.43:201][301]LogDerivedDataCache: Shutdown
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.09.08-02.10.43:201][301]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.09.08-02.10.43:202][301]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2016.09.08-02.10.43:202][301]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2016.09.08-02.10.43:202][301]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2016.09.08-02.10.43:202][301]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2016.09.08-02.10.43:202][301]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.09.08-02.10.43:202][301]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module LeapMotion (16)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.08-02.10.46:208][301]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.08-02.10.46:209][301]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.08-02.10.46:211][301]LogExit: Exiting.
+[2016.09.08-02.10.46:223][301]Log file closed, 09/08/16 14:10:46
