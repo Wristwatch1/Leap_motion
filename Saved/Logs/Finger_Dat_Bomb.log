@@ -1,9 +1,9 @@
-﻿Log file open, 09/09/16 10:42:28
+﻿Log file open, 09/09/16 13:18:30
 LogInit:Display: Running engine for game: Finger_Dat_Bomb
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-2127510769) SRandInit(-2127510768).
+LogInit:Display: RandInit(-1506665324) SRandInit(-1506665323).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.072881
+LogStats: Stats thread started at 0.067078
 LeapPluginLog: Using LeapPlugin version 2.0.0
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
@@ -26,8 +26,8 @@ LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: F:/Unreal Engine 4/TOTALLY LEGIT FILES/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -45,360 +45,482 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.09.08-22.42.28:879][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.08-22.42.28:879][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.09.08-22.42.28:930][  0]LogInit: Computer: DESKTOP-0V2RO95
-[2016.09.08-22.42.28:931][  0]LogInit: User: Christopher
-[2016.09.08-22.42.28:931][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.09.08-22.42.28:931][  0]LogInit: High frequency timer resolution =3.117190 MHz
-[2016.09.08-22.42.28:931][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.09.08-22.42.28:931][  0]LogMemory: Platform Memory Stats for Windows
-[2016.09.08-22.42.28:931][  0]LogMemory: Process Physical Memory: 192.18 MB used, 192.18 MB peak
-[2016.09.08-22.42.28:931][  0]LogMemory: Process Virtual Memory: 196.21 MB used, 196.21 MB peak
-[2016.09.08-22.42.28:931][  0]LogMemory: Physical Memory: 5226.63 MB used, 8144.65 MB total
-[2016.09.08-22.42.28:931][  0]LogMemory: Virtual Memory: 605.30 MB used, 134217728.00 MB total
-[2016.09.08-22.42.29:144][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
-[2016.09.08-22.42.29:709][  0]LogD3D11RHI: D3D11 adapters:
-[2016.09.08-22.42.29:742][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2016.09.08-22.42.29:742][  0]LogD3D11RHI:       2016/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.09.08-22.42.29:743][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.09.08-22.42.29:743][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.09.08-22.42.29:743][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.09.08-22.42.29:749][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.09.08-22.42.29:749][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2016.09.08-22.42.29:749][  0]LogWindows: EnumDisplayDevices:
-[2016.09.08-22.42.29:749][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2016.09.08-22.42.29:749][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2016.09.08-22.42.29:749][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2016.09.08-22.42.29:749][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2016.09.08-22.42.29:749][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.09.08-22.42.29:749][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2016.09.08-22.42.29:749][  0]LogD3D11RHI:   Driver Version: 368.81 (internal:10.18.13.6881, unified:368.81)
-[2016.09.08-22.42.29:749][  0]LogD3D11RHI:      Driver Date: 7-10-2016
-[2016.09.08-22.42.29:749][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.09.08-22.42.29:763][  0]LogD3D11RHI: Async texture creation enabled
-[2016.09.08-22.42.29:773][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.09.08-22.42.29:773][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Christopher/Desktop/git_stuff/Leap_motion/Intermediate/Shaders/WorkingDirectory/11240/).
-[2016.09.08-22.42.29:773][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CHRIST~1/AppData/Local/Temp/UnrealShaderWorkingDir/63FDAB724237754DCC83E7B5C64C90BC/'.
-[2016.09.08-22.42.29:774][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.09.08-22.42.33:802][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.09.08-22.42.33:810][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.09.08-22.42.33:817][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.09.08-22.42.33:826][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.09.08-22.42.33:834][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.09.08-22.42.33:843][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.09.08-22.42.33:850][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.09.08-22.42.33:857][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.09.08-22.42.33:864][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.09.08-22.42.33:872][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.09.08-22.42.33:879][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.09.08-22.42.33:893][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.09.08-22.42.33:893][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.09.08-22.42.33:894][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.09.08-22.42.33:917][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.09.08-22.42.33:924][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.09.08-22.42.33:930][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.09.08-22.42.33:937][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.09.08-22.42.33:961][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.09.08-22.42.33:961][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.09.08-22.42.34:030][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.09.08-22.42.34:085][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.08-22.42.34:086][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christopher/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.09.08-22.42.34:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christopher/Desktop/git_stuff/Leap_motion/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.09.08-22.42.34:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.09.08-22.42.34:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christopher/Desktop/git_stuff/Leap_motion/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.09.08-22.42.34:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.09.08-22.42.34:101][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.09.08-22.42.34:113][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christopher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.09.08-22.42.34:297][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.08-22.42.34:300][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.09.08-22.42.34:739][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.09.08-22.42.34:739][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.09.08-22.42.34:739][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.09.08-22.42.35:830][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
-[2016.09.08-22.42.35:870][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038071 seconds
-[2016.09.08-22.42.35:876][  0]LogUObjectArray: 29424 objects as part of root set at end of initial load.
-[2016.09.08-22.42.35:876][  0]LogUObjectAllocator: 5972752 out of 0 bytes used by permanent object pool.
-[2016.09.08-22.42.35:876][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.09.08-22.42.35:890][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.09.08-22.42.36:371][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.08-22.42.36:371][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.08-22.43.05:339][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.09.08-22.43.06:692][  0]SourceControl: Info Source control is disabled
-[2016.09.08-22.43.06:693][  0]SourceControl: Info Source control is disabled
-[2016.09.08-22.43.06:702][  0]SourceControl: Info Source control is disabled
-[2016.09.08-22.43.06:710][  0]SourceControl: Info Source control is disabled
-[2016.09.08-22.43.07:296][  0]LogEngine: Initializing Engine...
-[2016.09.08-22.43.07:297][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.09.08-22.43.07:298][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.09.08-22.43.08:049][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.09.08-22.43.08:055][  0]LogInit: XAudio2 using '2367-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.08-22.43.08:062][  0]LogInit: FAudioDevice initialized.
-[2016.09.08-22.43.08:094][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.08-22.43.08:102][  0]LogInit: Texture streaming: Enabled
-[2016.09.08-22.43.08:149][  0]LogInit: Transaction tracking system initialized
-[2016.09.08-22.43.08:170][  0]BlueprintLog: New page: Editor Load
-[2016.09.08-22.43.08:289][  0]LocalizationService: Info Localization service is disabled
-[2016.09.08-22.43.08:815][  0]LogConsoleResponse:Display: 
-[2016.09.08-22.43.10:498][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.09.08-22.43.10:498][  0]LogCook:Display: Mobile HDR setting 1
-[2016.09.08-22.43.10:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher/Desktop/git_stuff/Leap_motion/Content/' took 0.01s
-[2016.09.08-22.43.11:313][  0]SourceControl: Info Source control is disabled
-[2016.09.08-22.43.11:313][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christopher/Desktop/git_stuff/Leap_motion/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.09.08-22.43.11:313][  0]LightingResults: New page: Lighting Build
-[2016.09.08-22.43.11:316][  0]MapCheck: New page: Map Check
-[2016.09.08-22.43.11:316][  0]LightingResults: New page: Lighting Build
-[2016.09.08-22.43.13:475][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.09.08-22.43.13:678][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.09.08-22.43.13:679][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.09.08-22.43.13:719][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.857ms to complete.
-[2016.09.08-22.43.13:720][  0]LogFileHelpers: Loading map 'Untitled' took 2.407
-[2016.09.08-22.43.13:936][  0]LogCollectionManager: Loaded 0 collections in 0.001531 seconds
-[2016.09.08-22.43.13:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher/Desktop/git_stuff/Leap_motion/Saved/Collections/' took 0.01s
-[2016.09.08-22.43.13:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher/Desktop/git_stuff/Leap_motion/Content/Developers/Christopher/Collections/' took 0.01s
-[2016.09.08-22.43.13:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christopher/Desktop/git_stuff/Leap_motion/Content/Collections/' took 0.01s
-[2016.09.08-22.43.13:977][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.09.08-22.43.13:984][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2074 classes and 373 folders.
-[2016.09.08-22.43.13:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.09.08-22.43.13:988][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.09.08-22.43.13:988][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
-[2016.09.08-22.43.14:013][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.09.08-22.43.15:515][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.09.08-22.43.15:519][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.09.08-22.43.15:532][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.09.08-22.43.15:538][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.09.08-22.43.15:565][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.09.08-22.43.15:565][  0]LogLoad: Full Startup: 47.64 seconds (BP compile: 0.25 seconds)
-[2016.09.08-22.43.15:565][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.09.08-22.43.15:905][  0]LogOcInput: OculusInput pre-init called
-[2016.09.08-22.43.15:977][  0]LogContentStreaming: Texture pool size now 200 MB
-[2016.09.08-22.43.16:418][  0]LogRenderer: Reallocating scene render targets to support 1008x576 (Frame:2).
-[2016.09.08-22.43.16:498][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Christopher/Desktop/git_stuff/Leap_motion/Content/' took 0.58s
-[2016.09.08-22.43.16:836][  2]LogAssetRegistry: Asset discovery search completed in 41.0286 seconds
-[2016.09.08-22.43.16:836][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.09.08-22.43.16:836][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2016.09.08-22.44.22:289][947]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.08-22.44.22:454][948]Cmd: QUIT_EDITOR
-[2016.09.08-22.44.22:505][948]LogExit: Preparing to exit.
-[2016.09.08-22.44.23:402][948]LogExit: Editor shut down
-[2016.09.08-22.44.23:402][948]LogExit: Transaction tracking system shut down
-[2016.09.08-22.44.23:522][948]LogObj: Freed 0b from 0 cluster array pools.
-[2016.09.08-22.44.23:523][948]LogExit: Object subsystem successfully closed.
-[2016.09.08-22.44.23:540][948]LogD3D11RHI: Shutdown
-[2016.09.08-22.44.23:540][948]LogD3D11RHI: CleanupD3DDevice
-[2016.09.08-22.44.23:581][948]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.09.08-22.44.23:592][948]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
-[2016.09.08-22.44.23:592][948]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
-[2016.09.08-22.44.23:592][948]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
-[2016.09.08-22.44.23:592][948]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
-[2016.09.08-22.44.23:592][948]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module StatsViewer (206)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module FoliageEdit (205)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module LandscapeEditor (204)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (203)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module ActorPickerMode (202)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module GeometryMode (201)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module TextureAlignMode (200)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module BspMode (199)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module HardwareSurvey (198)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (197)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module SequenceRecorder (196)
-[2016.09.08-22.44.23:593][948]LogModuleManager: Shutting down and abandoning module AutomationWorker (195)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (194)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module PlacementMode (193)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (192)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module CharacterAI (191)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module SmartSnapping (190)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module SessionServices (189)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module ViewportSnapping (188)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module LogVisualizer (187)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (186)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module IntroTutorials (185)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (184)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (183)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (182)
-[2016.09.08-22.44.23:594][948]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (181)
-[2016.09.08-22.44.24:391][948]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (180)
-[2016.09.08-22.44.24:391][948]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (179)
-[2016.09.08-22.44.24:391][948]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (178)
-[2016.09.08-22.44.24:391][948]LogModuleManager: Shutting down and abandoning module MergeActors (177)
-[2016.09.08-22.44.24:391][948]LogModuleManager: Shutting down and abandoning module SizeMap (176)
-[2016.09.08-22.44.24:391][948]LogModuleManager: Shutting down and abandoning module TreeMap (175)
-[2016.09.08-22.44.24:393][948]LogModuleManager: Shutting down and abandoning module ReferenceViewer (174)
-[2016.09.08-22.44.24:393][948]LogModuleManager: Shutting down and abandoning module LocalizationService (173)
-[2016.09.08-22.44.24:393][948]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (172)
-[2016.09.08-22.44.24:393][948]LogModuleManager: Shutting down and abandoning module HardwareTargeting (171)
-[2016.09.08-22.44.24:393][948]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (170)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module UndoHistory (169)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module UserFeedback (168)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module XmlParser (167)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module Blutility (166)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (165)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (164)
-[2016.09.08-22.44.24:394][948]LogModuleManager: Shutting down and abandoning module InputBindingEditor (163)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (162)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module SettingsEditor (161)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module ProjectLauncher (160)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module SessionFrontend (159)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module ProfilerClient (158)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (157)
-[2016.09.08-22.44.24:395][948]LogModuleManager: Shutting down and abandoning module DeviceManager (156)
-[2016.09.08-22.44.24:461][948]LogModuleManager: Shutting down and abandoning module AutomationController (155)
-[2016.09.08-22.44.24:461][948]LogModuleManager: Shutting down and abandoning module AutomationWindow (154)
-[2016.09.08-22.44.24:461][948]LogModuleManager: Shutting down and abandoning module Layers (153)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (152)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module DetailCustomizations (151)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module PackagesDialog (150)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module Persona (149)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module Kismet (148)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module GraphEditor (147)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module ClassViewer (146)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module Toolbox (145)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module ModuleUI (144)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module MovieSceneTools (143)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module OutputLog (142)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module GammaUI (141)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module Documentation (140)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (139)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module AnalyticsET (138)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module Analytics (137)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module PortalServices (136)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module PortalRpc (135)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module MessagingRpc (134)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module GameplayDebugger (133)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module AIModule (131)
-[2016.09.08-22.44.24:462][948]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module TaskGraph (129)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SteamVR (126)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module OculusInput (123)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module CableComponent (121)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.09.08-22.44.24:641][948]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module HotReload (100)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module MainFrame (99)
-[2016.09.08-22.44.24:642][948]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
-[2016.09.08-22.44.24:643][948]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
-[2016.09.08-22.44.24:643][948]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
-[2016.09.08-22.44.24:643][948]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module Media (91)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
-[2016.09.08-22.44.24:744][948]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module VREditor (85)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module Sequencer (79)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module MessageLog (77)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module AssetTools (76)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module UMG (74)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module Slate (72)
-[2016.09.08-22.44.24:745][948]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
-[2016.09.08-22.44.24:747][948]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
-[2016.09.08-22.44.24:747][948]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
-[2016.09.08-22.44.24:747][948]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
-[2016.09.08-22.44.24:747][948]LogModuleManager: Shutting down and abandoning module Networking (66)
-[2016.09.08-22.44.24:747][948]LogModuleManager: Shutting down and abandoning module Core (65)
-[2016.09.08-22.44.24:747][948]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
-[2016.09.08-22.44.24:748][948]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
-[2016.09.08-22.44.24:934][948]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
-[2016.09.08-22.44.24:934][948]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
-[2016.09.08-22.44.24:934][948]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
-[2016.09.08-22.44.24:934][948]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
-[2016.09.08-22.44.25:233][948]LogDerivedDataCache: Shutdown
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Messaging (40)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module InputCore (23)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module Settings (22)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
-[2016.09.08-22.44.25:233][948]LogModuleManager: Shutting down and abandoning module HTTP (19)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module XMPP (18)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module OculusRift (17)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module LeapMotion (16)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.09.08-22.44.26:735][948]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.09.08-22.44.26:736][948]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.09.08-22.44.26:736][948]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.09.08-22.44.26:736][948]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.09.08-22.44.26:737][948]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.09.08-22.44.26:738][948]LogExit: Exiting.
-[2016.09.08-22.44.26:739][948]Log file closed, 09/09/16 10:44:26
+[2016.09.09-01.18.30:415][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.09-01.18.30:415][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.09-01.18.30:421][  0]LogInit: Computer: 1806C021
+[2016.09.09-01.18.30:421][  0]LogInit: User: danielpri6453
+[2016.09.09-01.18.30:421][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.09-01.18.30:421][  0]LogInit: High frequency timer resolution =3.312656 MHz
+[2016.09.09-01.18.30:422][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.09.09-01.18.30:422][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.09-01.18.30:422][  0]LogMemory: Process Physical Memory: 195.23 MB used, 195.23 MB peak
+[2016.09.09-01.18.30:422][  0]LogMemory: Process Virtual Memory: 198.19 MB used, 198.19 MB peak
+[2016.09.09-01.18.30:422][  0]LogMemory: Physical Memory: 7514.20 MB used, 16271.12 MB total
+[2016.09.09-01.18.30:422][  0]LogMemory: Virtual Memory: 584.58 MB used, 8388608.00 MB total
+[2016.09.09-01.18.30:449][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2016.09.09-01.18.30:812][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.09-01.18.30:826][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2016.09.09-01.18.30:826][  0]LogD3D11RHI:       1990/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.09.09-01.18.30:826][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.09-01.18.30:829][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.09-01.18.30:829][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.09-01.18.30:829][  0]LogWindows: EnumDisplayDevices:
+[2016.09.09-01.18.30:829][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2016.09.09-01.18.30:830][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2016.09.09-01.18.30:830][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.09-01.18.30:830][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.09-01.18.30:830][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.09.09-01.18.30:830][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.09.09-01.18.30:830][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.09.09-01.18.30:830][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2016.09.09-01.18.30:830][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.09.09-01.18.30:830][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2016.09.09-01.18.30:830][  0]LogD3D11RHI:   Driver Version: 347.88 (internal:9.18.13.4788, unified:347.88)
+[2016.09.09-01.18.30:830][  0]LogD3D11RHI:      Driver Date: 3-13-2015
+[2016.09.09-01.18.30:830][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.09-01.18.30:836][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.09-01.18.30:850][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.09.09-01.18.30:850][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Intermediate/Shaders/WorkingDirectory/7832/).
+[2016.09.09-01.18.30:850][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/DANIEL~1.PRI/AppData/Local/Temp/UnrealShaderWorkingDir/FD883D2E4D523593C7ADA0804D624A86/'.
+[2016.09.09-01.18.30:850][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.09-01.18.31:637][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.09-01.18.31:644][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.09-01.18.31:653][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.09-01.18.31:660][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.09-01.18.31:668][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.09-01.18.31:675][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.09-01.18.31:681][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.09-01.18.31:688][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.09-01.18.31:695][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.09-01.18.31:702][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.09-01.18.31:709][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.09-01.18.31:722][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.09-01.18.31:722][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.09-01.18.31:722][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.09-01.18.31:741][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.09-01.18.31:747][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.09-01.18.31:754][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.09-01.18.31:761][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.09-01.18.31:768][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.09-01.18.31:768][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.09-01.18.31:814][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.09-01.18.31:859][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.09-01.18.31:859][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.09-01.18.31:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.09-01.18.31:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.09-01.18.31:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.09-01.18.31:859][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.09-01.18.31:875][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.09-01.18.31:886][  0]LogDerivedDataCache: Using Local data cache path D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.09-01.18.32:040][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.09-01.18.32:040][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.09-01.18.32:171][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.09-01.18.32:171][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.09-01.18.32:171][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.09-01.18.32:445][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2016.09.09-01.18.32:467][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.019662 seconds
+[2016.09.09-01.18.32:472][  0]LogUObjectArray: 29424 objects as part of root set at end of initial load.
+[2016.09.09-01.18.32:472][  0]LogUObjectAllocator: 5972744 out of 0 bytes used by permanent object pool.
+[2016.09.09-01.18.32:472][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.09-01.18.32:477][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.09-01.18.32:614][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.09-01.18.32:614][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.09-01.18.33:178][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.09-01.18.33:348][  0]SourceControl: Info Source control is disabled
+[2016.09.09-01.18.33:348][  0]SourceControl: Info Source control is disabled
+[2016.09.09-01.18.33:353][  0]SourceControl: Info Source control is disabled
+[2016.09.09-01.18.33:357][  0]SourceControl: Info Source control is disabled
+[2016.09.09-01.18.33:490][  0]LogEngine: Initializing Engine...
+[2016.09.09-01.18.33:491][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.09-01.18.33:492][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.09-01.18.33:616][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.09-01.18.33:620][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.09-01.18.33:632][  0]LogInit: FAudioDevice initialized.
+[2016.09.09-01.18.33:653][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB D:/Users/daniel.pri6453/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.09-01.18.33:657][  0]LogInit: Texture streaming: Enabled
+[2016.09.09-01.18.33:670][  0]LogInit: Transaction tracking system initialized
+[2016.09.09-01.18.33:684][  0]BlueprintLog: New page: Editor Load
+[2016.09.09-01.18.33:728][  0]LocalizationService: Info Localization service is disabled
+[2016.09.09-01.18.33:940][  0]LogConsoleResponse:Display: 
+[2016.09.09-01.18.34:019][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.09-01.18.34:019][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.09-01.18.34:076][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/' took 0.01s
+[2016.09.09-01.18.34:076][  0]SourceControl: Info Source control is disabled
+[2016.09.09-01.18.34:076][  0]Cmd: MAP LOAD FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.09-01.18.34:077][  0]LightingResults: New page: Lighting Build
+[2016.09.09-01.18.34:078][  0]MapCheck: New page: Map Check
+[2016.09.09-01.18.34:078][  0]LightingResults: New page: Lighting Build
+[2016.09.09-01.18.34:661][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.09.09-01.18.34:673][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.09-01.18.34:673][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.09-01.18.34:700][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.876ms to complete.
+[2016.09.09-01.18.34:700][  0]LogFileHelpers: Loading map 'Untitled' took 0.624
+[2016.09.09-01.18.34:822][  0]LogCollectionManager: Loaded 0 collections in 0.001218 seconds
+[2016.09.09-01.18.34:860][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/Collections/' took 0.01s
+[2016.09.09-01.18.34:860][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Developers/danielpri6453/Collections/' took 0.01s
+[2016.09.09-01.18.34:860][  0]LogFileCache: Scanning file cache for directory 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Collections/' took 0.01s
+[2016.09.09-01.18.34:860][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.09.09-01.18.34:868][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2074 classes and 373 folders.
+[2016.09.09-01.18.34:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.09-01.18.34:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.09-01.18.34:871][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.09.09-01.18.34:875][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.09-01.18.34:901][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.09-01.18.34:904][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.09-01.18.34:948][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.09-01.18.34:955][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.09-01.18.34:978][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.09-01.18.34:978][  0]LogLoad: Full Startup: 5.06 seconds (BP compile: 0.15 seconds)
+[2016.09.09-01.18.34:978][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.09-01.18.34:978][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.09-01.18.34:988][  0]LogOcInput: OculusInput pre-init called
+[2016.09.09-01.18.35:006][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.09.09-01.18.35:138][  0]LogRenderer: Reallocating scene render targets to support 804x540 (Frame:2).
+[2016.09.09-01.18.35:304][  2]LogAssetRegistry: Asset discovery search completed in 2.8794 seconds
+[2016.09.09-01.18.35:304][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.09-01.18.35:304][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.09.09-01.18.47:833][656]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ComfortTurnRight' for  InputAction ComfortTurnRight 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ComfortTurnLeft' for  InputAction ComfortTurnLeft 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.09.09-01.18.50:358][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.09.09-01.18.50:367][656]LogBlueprint:Warning: Compiler Warning [0020.45] Compile of MattsJazzHands successful, but with 9 Warning(s) [in 17 ms] (/Game/MattsJazzHands.MattsJazzHands)
+[2016.09.09-01.18.50:367][656]LogBlueprint:Warning: Compiler Warning [0020.45] Compile of MattsJazzHands successful, but with 10 Warning(s) [in 0 ms] (/Game/MattsJazzHands.MattsJazzHands)
+[2016.09.09-01.18.50:367][656]LogBlueprint:Warning: Compiler Warning [0020.45] Compile of MattsJazzHands successful, but with 11 Warning(s) [in 0 ms] (/Game/MattsJazzHands.MattsJazzHands)
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ComfortTurnRight' for  InputAction ComfortTurnRight 
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'ComfortTurnLeft' for  InputAction ComfortTurnLeft 
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2016.09.09-01.18.50:382][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2016.09.09-01.18.50:383][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2016.09.09-01.18.50:383][656]LogBlueprint:Warning: Compiler Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2016.09.09-01.18.50:391][656]LogBlueprint:Warning: Compiler Warning [0020.47] Compile of MattsJazzHands successful, but with 9 Warning(s) [in 19 ms] (/Game/MattsJazzHands.MattsJazzHands)
+[2016.09.09-01.18.50:391][656]LogBlueprint:Warning: Compiler Warning [0020.47] Compile of MattsJazzHands successful, but with 10 Warning(s) [in 0 ms] (/Game/MattsJazzHands.MattsJazzHands)
+[2016.09.09-01.18.50:392][656]LogBlueprint:Warning: Compiler Warning [0020.47] Compile of MattsJazzHands successful, but with 11 Warning(s) [in 0 ms] (/Game/MattsJazzHands.MattsJazzHands)
+[2016.09.09-01.18.51:468][656]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2016.09.09-01.19.27:928][944]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/room_uv.png)
+[2016.09.09-01.19.27:961][944]LogTexture:Display: Building textures: room_uv (AutoDXT)
+[2016.09.09-01.19.32:630][200]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/room.fbx)
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: Geometry, ItemCount : 45
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: Material, ItemCount : 6
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: Model, ItemCount : 73
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: NodeAttribute, ItemCount : 28
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: Texture, ItemCount : 1
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2016.09.09-01.19.32:636][200]LogFbx: ItemName: Video, ItemCount : 1
+[2016.09.09-01.19.32:641][200]LogFbx: Loading FBX Scene from D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/room.fbx
+[2016.09.09-01.19.32:668][200]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.09-01.19.34:122][200]LogFbx: Loading FBX Scene from D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/room.fbx
+[2016.09.09-01.19.34:151][200]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.09-01.19.34:155][200]LogLinker:Warning: Can't find file '/Game/Room/lambert1'
+[2016.09.09-01.19.34:155][200]LogLinker:Warning: Can't find file '/Game/Room/lambert1'
+[2016.09.09-01.19.34:158][200]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.09.09-01.19.34:182][200]LogFbx:Warning: Triangulating static mesh pPlane1
+[2016.09.09-01.19.34:184][200]LogLinker:Warning: Can't find file '/Game/Room/blinn1'
+[2016.09.09-01.19.34:184][200]LogLinker:Warning: Can't find file '/Game/Room/blinn1'
+[2016.09.09-01.19.34:187][200]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2016.09.09-01.19.34:197][200]LogFbx:Warning: Triangulating static mesh pTorus2
+[2016.09.09-01.19.34:215][200]LogFbx:Warning: Triangulating static mesh pCylinder3
+[2016.09.09-01.19.34:237][200]LogFbx:Warning: Triangulating static mesh pCylinder4
+[2016.09.09-01.19.34:240][200]LogFbx:Warning: Triangulating static mesh pCube2
+[2016.09.09-01.19.34:246][200]LogLinker:Warning: Can't find file '/Game/Room/lambert2'
+[2016.09.09-01.19.34:246][200]LogLinker:Warning: Can't find file '/Game/Room/lambert2'
+[2016.09.09-01.19.34:251][200]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.09.09-01.19.34:263][200]LogFbx:Warning: Triangulating static mesh pCylinder5
+[2016.09.09-01.19.34:267][200]LogLinker:Warning: Can't find file '/Game/Room/phongE1'
+[2016.09.09-01.19.34:267][200]LogLinker:Warning: Can't find file '/Game/Room/phongE1'
+[2016.09.09-01.19.34:271][200]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2016.09.09-01.19.34:280][200]LogFbx:Warning: Triangulating static mesh pCylinder6
+[2016.09.09-01.19.34:306][200]LogFbx:Warning: Triangulating static mesh pCylinder7
+[2016.09.09-01.19.34:335][200]LogLinker:Warning: Can't find file '/Game/Room/phongE2'
+[2016.09.09-01.19.34:336][200]LogLinker:Warning: Can't find file '/Game/Room/phongE2'
+[2016.09.09-01.19.34:340][200]LogMaterial: Missing cached shader map for material phongE2, compiling. 
+[2016.09.09-01.19.34:355][200]LogFbx:Warning: Triangulating static mesh pCube7
+[2016.09.09-01.19.34:385][200]LogFbx:Warning: Triangulating static mesh pCube8
+[2016.09.09-01.19.34:388][200]LogFbx:Warning: Triangulating static mesh pCube9
+[2016.09.09-01.19.34:413][200]LogFbx:Warning: Triangulating static mesh pCube10
+[2016.09.09-01.19.34:416][200]LogFbx:Warning: Triangulating static mesh pCube11
+[2016.09.09-01.19.34:440][200]LogFbx:Warning: Triangulating static mesh pCube13
+[2016.09.09-01.19.34:464][200]LogFbx:Warning: Triangulating static mesh pCube14
+[2016.09.09-01.19.34:466][200]LogFbx:Warning: Triangulating static mesh pCube15
+[2016.09.09-01.19.34:474][200]LogFbx:Warning: Triangulating static mesh pCube16
+[2016.09.09-01.19.34:479][200]LogFbx:Warning: Triangulating static mesh pCube17
+[2016.09.09-01.19.34:507][200]LogFbx:Warning: Triangulating static mesh pCylinder14
+[2016.09.09-01.19.34:526][200]LogFbx:Warning: Triangulating static mesh pCube21
+[2016.09.09-01.19.34:556][200]LogFbx:Warning: Triangulating static mesh pPlane2
+[2016.09.09-01.19.34:556][200]LogFbx:Warning: Triangulating static mesh pCylinder19
+[2016.09.09-01.19.34:560][200]LogFbx:Warning: Triangulating static mesh pCylinder20
+[2016.09.09-01.19.34:586][200]LogFbx:Warning: Triangulating static mesh pTorus3
+[2016.09.09-01.19.34:605][200]LogFbx:Warning: Triangulating static mesh pCylinder21
+[2016.09.09-01.19.34:609][200]LogFbx:Warning: Triangulating static mesh pCylinder22
+[2016.09.09-01.19.34:637][200]LogFbx:Warning: Triangulating static mesh pCylinder23
+[2016.09.09-01.19.34:641][200]LogFbx:Warning: Triangulating static mesh pCylinder24
+[2016.09.09-01.19.34:646][200]LogFbx:Warning: Triangulating static mesh pTorus4
+[2016.09.09-01.19.34:664][200]LogFbx:Warning: Triangulating static mesh pCube22
+[2016.09.09-01.19.34:691][200]LogFbx:Warning: Triangulating static mesh pCube23
+[2016.09.09-01.19.34:694][200]LogFbx:Warning: Triangulating static mesh pCube24
+[2016.09.09-01.19.34:722][200]LogFbx:Warning: Triangulating static mesh pCube25
+[2016.09.09-01.19.34:750][200]LogLinker:Warning: Can't find file '/Game/Room/lambert3'
+[2016.09.09-01.19.34:751][200]LogLinker:Warning: Can't find file '/Game/Room/lambert3'
+[2016.09.09-01.19.34:753][200]LogLinker:Warning: Can't find file '/Game/Room/whale'
+[2016.09.09-01.19.34:753][200]LogLinker:Warning: Can't find file '/Game/Room/whale'
+[2016.09.09-01.19.34:753][200]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Room/whale.whale'
+[2016.09.09-01.19.34:753][200]LogStreaming:Warning: Failed to read file 'C:\Users\ttphu\Desktop\polar rush\whale.png' error.
+[2016.09.09-01.19.34:753][200]LogStreaming:Warning: Failed to read file 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/..\..\polar rush\whale.png' error.
+[2016.09.09-01.19.34:753][200]LogStreaming:Warning: Failed to read file 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/whale.png' error.
+[2016.09.09-01.19.34:753][200]LogFbxMaterialImport:Warning: Unable to find TEXTure file whale.png. Tried:
+ - C:\Users\ttphu\Desktop\polar rush\whale.png
+ - D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/..\..\polar rush\whale.png
+ - D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/whale.png
+[2016.09.09-01.19.34:753][200]LogLinker:Warning: Can't find file '/Game/Room/whale'
+[2016.09.09-01.19.34:753][200]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Room/whale.whale'
+[2016.09.09-01.19.34:753][200]LogStreaming:Warning: Failed to read file 'C:\Users\ttphu\Desktop\polar rush\whale.png' error.
+[2016.09.09-01.19.34:753][200]LogStreaming:Warning: Failed to read file 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/..\..\polar rush\whale.png' error.
+[2016.09.09-01.19.34:753][200]LogStreaming:Warning: Failed to read file 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/whale.png' error.
+[2016.09.09-01.19.34:753][200]LogFbxMaterialImport:Warning: Unable to find TEXTure file whale.png. Tried:
+ - C:\Users\ttphu\Desktop\polar rush\whale.png
+ - D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/..\..\polar rush\whale.png
+ - D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Unimplemented Content/whale.png
+[2016.09.09-01.19.34:756][200]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2016.09.09-01.19.34:772][200]LogFbx:Warning: Triangulating static mesh pCube12
+[2016.09.09-01.19.34:831][200]LogFbx:Warning: Triangulating static mesh pCylinder25
+[2016.09.09-01.19.34:835][200]LogFbx:Warning: Triangulating static mesh pCylinder26
+[2016.09.09-01.19.34:862][200]LogFbx:Warning: Triangulating static mesh pCylinder27
+[2016.09.09-01.19.34:867][200]LogFbx:Warning: Triangulating static mesh pCylinder28
+[2016.09.09-01.19.34:871][200]LogFbx:Warning: Triangulating static mesh pTorus5
+[2016.09.09-01.19.34:892][200]LogFbx:Warning: Triangulating static mesh pTorus6
+[2016.09.09-01.19.34:912][200]LogFbx:Warning: Triangulating static mesh pCylinder29
+[2016.09.09-01.19.34:917][200]LogFbx:Warning: Triangulating static mesh pCylinder30
+[2016.09.09-01.19.34:946][200]LogFbx:Warning: Triangulating static mesh pCylinder31
+[2016.09.09-01.19.34:967][200]LogFbx:Warning: Triangulating static mesh pCylinder32
+[2016.09.09-01.19.34:971][200]LogFbx:Warning: Triangulating static mesh pCylinder33
+[2016.09.09-01.19.34:987][200]LogStaticMesh: Building static mesh room...
+[2016.09.09-01.19.35:292][200]LogStaticMesh: Built static mesh [0.31s] /Game/Room/room.room
+[2016.09.09-01.19.35:308][200]LogStaticMesh:Warning: room has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.09.09-01.19.35:333][200]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.09.09-01.19.35:333][200]FBXImport:Warning: Warning room has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.09.09-01.19.42:854][626]LogActorFactory: Actor Factory created room
+[2016.09.09-01.19.43:407][674]LogActorFactory: Actor Factory created room
+[2016.09.09-01.19.52:620][361]LogMaterial: Missing cached shader map for material room_uv_Mat, compiling. 
+[2016.09.09-01.19.52:637][361]LogMaterial:Warning: Material /Game/Room/room_uv_Mat.room_uv_Mat needed to have new flag set bUsedWithStaticLighting !
+[2016.09.09-01.19.52:640][361]LogMaterial: Missing cached shader map for material room_uv_Mat, compiling. 
+[2016.09.09-01.19.52:658][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.09-01.19.57:526][661]Cmd: TRANSACTION UNDO
+[2016.09.09-01.19.57:527][661]LogEditorTransaction: Undo Create Actors
+[2016.09.09-01.20.07:769][422]Cmd: TRANSACTION UNDO
+[2016.09.09-01.20.07:769][422]LogEditorTransaction: Undo Create Actors
+[2016.09.09-01.20.46:405][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Untitled" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.09-01.20.46:555][310]LogSavePackage: Save=123.38ms
+[2016.09.09-01.20.46:555][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/Untitled239BD9F742FB9CD1941636A5526DA12C.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Untitled.umap'
+[2016.09.09-01.20.46:556][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Untitled.umap
+[2016.09.09-01.20.46:563][310]LogFileHelpers: Saving map 'Untitled' took 0.198
+[2016.09.09-01.20.46:577][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/room_uv" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/room_uv.uasset" SILENT=true
+[2016.09.09-01.20.46:613][310]LogSavePackage: Save=36.08ms
+[2016.09.09-01.20.46:613][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/room_uv182B10174A5B044F941F13ADB487C8D0.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/room_uv.uasset'
+[2016.09.09-01.20.46:614][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/room_uv.uasset
+[2016.09.09-01.20.46:626][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/room" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/room.uasset" SILENT=true
+[2016.09.09-01.20.46:632][310]LogSavePackage: Save=5.69ms
+[2016.09.09-01.20.46:632][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/roomBD7F8E8446BD78A06CF71EA420D7EFC5.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/room.uasset'
+[2016.09.09-01.20.46:633][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/room.uasset
+[2016.09.09-01.20.46:681][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/lambert1" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert1.uasset" SILENT=true
+[2016.09.09-01.20.46:689][310]LogSavePackage: Save=7.54ms
+[2016.09.09-01.20.46:689][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/lambert10249A5FE4AE27B0C539EAA975CBF4B99.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert1.uasset'
+[2016.09.09-01.20.46:690][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert1.uasset
+[2016.09.09-01.20.46:703][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/blinn1" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/blinn1.uasset" SILENT=true
+[2016.09.09-01.20.46:711][310]LogSavePackage: Save=7.06ms
+[2016.09.09-01.20.46:711][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/blinn179FBA6254A6DB00CB9D533876E9F1F46.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/blinn1.uasset'
+[2016.09.09-01.20.46:712][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/blinn1.uasset
+[2016.09.09-01.20.46:724][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/lambert2" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert2.uasset" SILENT=true
+[2016.09.09-01.20.46:733][310]LogSavePackage: Save=8.25ms
+[2016.09.09-01.20.46:733][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/lambert26E467897495A7821F22DA4A069E5B82D.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert2.uasset'
+[2016.09.09-01.20.46:734][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert2.uasset
+[2016.09.09-01.20.46:753][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/phongE1" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/phongE1.uasset" SILENT=true
+[2016.09.09-01.20.46:762][310]LogSavePackage: Save=8.44ms
+[2016.09.09-01.20.46:762][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/phongE1B438F0A441F8AE9A177AF4BEB28B0B6A.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/phongE1.uasset'
+[2016.09.09-01.20.46:763][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/phongE1.uasset
+[2016.09.09-01.20.46:775][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/phongE2" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/phongE2.uasset" SILENT=true
+[2016.09.09-01.20.46:784][310]LogSavePackage: Save=8.05ms
+[2016.09.09-01.20.46:784][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/phongE2D2FBE69C4D9783D425EB3196C656C1C4.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/phongE2.uasset'
+[2016.09.09-01.20.46:785][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/phongE2.uasset
+[2016.09.09-01.20.46:802][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Room/lambert3" FILE="D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert3.uasset" SILENT=true
+[2016.09.09-01.20.46:810][310]LogSavePackage: Save=7.29ms
+[2016.09.09-01.20.46:810][310]LogSavePackage: Moving 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Saved/lambert36256777D464E7CFE64EE58AF69FD0F4B.tmp' to 'D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert3.uasset'
+[2016.09.09-01.20.46:811][310]LogSavePackage:Display: Finished SavePackage D:/Users/daniel.pri6453/Documents/GitHub/Leap_motion 4.12 - 3/Content/Room/lambert3.uasset
+[2016.09.09-01.20.47:838][378]LogTexture:Display: Building textures: CameraActor_64x (BGRA8)
+[2016.09.09-01.20.47:842][378]LogTexture:Display: Building textures: BlueprintInterface_64x (BGRA8)
+[2016.09.09-01.20.47:847][378]LogTexture:Display: Building textures: BlueprintMacroLibrary_64x (BGRA8)
+[2016.09.09-01.20.47:934][378]LogTexture:Display: Building textures: IOS (BGRA8)
+[2016.09.09-01.20.47:945][378]LogTexture:Display: Building textures: android_Icon (BGRA8)
+[2016.09.09-01.20.47:948][378]LogTexture:Display: Building textures: Paper2DFlipbook_TutorialIcon (BGRA8)
+[2016.09.09-01.21.03:985][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.09.09-01.21.04:032][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.09.09-01.21.04:095][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.09.09-01.21.09:890][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Untitled.Untitled:PersistentLevel.Untitled'
+[2016.09.09-01.21.09:890][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.09-01.21.09:890][ 12]PIE: New page: PIE session: Untitled (10/09/2016 1:21:09 am)
+[2016.09.09-01.21.09:890][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2016.09.09-01.21.09:894][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003832s)
+[2016.09.09-01.21.09:895][ 12]LogAIModule: Creating AISystem for world Untitled
+[2016.09.09-01.21.09:895][ 12]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2016.09.09-01.21.09:895][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.004767s)
+[2016.09.09-01.21.09:916][ 12]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.09-01.21.09:920][ 12]LogInit: FAudioDevice initialized.
+[2016.09.09-01.21.09:984][ 12]LogWorld: Game class is 'LeapMotion_C'
+[2016.09.09-01.21.09:987][ 12]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2016.09.09-13.21.09
+[2016.09.09-01.21.09:988][ 12]LogWorld: Bringing up level for play took: 0.002723
+[2016.09.09-01.21.09:991][ 12]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.09.09-01.21.09:992][ 12]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2016.09.09-01.21.09:994][ 12]Cmd: stereo reset
+[2016.09.09-01.21.09:995][ 12]Command not recognized: stereo reset
+[2016.09.09-01.21.09:995][ 12]LeapPluginLog: InterfaceObject: MattsJazzHands_C_0
+[2016.09.09-01.21.09:995][ 12]PIE: Info Play in editor start time for /Game/UEDPIE_0_Untitled -0.072
+[2016.09.09-01.21.09:995][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Untitled.Untitled:PersistentLevel.Untitled'
+[2016.09.09-01.21.09:996][ 12]LogBlueprintUserMessages: [Countdown_104] 29.992
+[2016.09.09-01.21.10:021][ 13]LogBlueprintUserMessages: [Countdown_104] 29.856
+[2016.09.09-01.21.10:027][ 13]LeapPluginLog: Created Leap Image Texture Sized: 640, 240, format 2
+[2016.09.09-01.21.10:054][ 13]LeapPluginLog: Created Leap Image Texture Sized: 640, 240, format 2
+[2016.09.09-01.21.10:064][ 14]LogBlueprintUserMessages: [Countdown_104] 29.812
+[2016.09.09-01.21.10:072][ 15]LogBlueprintUserMessages: [Countdown_104] 29.804
+[2016.09.09-01.21.10:080][ 16]LogBlueprintUserMessages: [Countdown_104] 29.796
+[2016.09.09-01.21.10:089][ 17]LogBlueprintUserMessages: [Countdown_104] 29.787
+[2016.09.09-01.21.10:097][ 18]LogBlueprintUserMessages: [Countdown_104] 29.779
+[2016.09.09-01.21.10:105][ 19]LogBlueprintUserMessages: [Countdown_104] 29.771
+[2016.09.09-01.21.10:114][ 20]LogBlueprintUserMessages: [Countdown_104] 29.762
+[2016.09.09-01.21.10:122][ 21]LogBlueprintUserMessages: [Countdown_104] 29.754
+[2016.09.09-01.21.10:130][ 22]LogBlueprintUserMessages: [Countdown_104] 29.746
+[2016.09.09-01.21.10:139][ 23]LogBlueprintUserMessages: [Countdown_104] 29.737
+[2016.09.09-01.21.10:147][ 24]LogBlueprintUserMessages: [Countdown_104] 29.729
+[2016.09.09-01.21.10:156][ 25]LogBlueprintUserMessages: [Countdown_104] 29.721
+[2016.09.09-01.21.10:164][ 26]LogBlueprintUserMessages: [Countdown_104] 29.712
+[2016.09.09-01.21.10:172][ 27]LogBlueprintUserMessages: [Countdown_104] 29.704
+[2016.09.09-01.21.10:180][ 28]LogBlueprintUserMessages: [Countdown_104] 29.696
+[2016.09.09-01.21.10:189][ 29]LogBlueprintUserMessages: [Countdown_104] 29.687
+[2016.09.09-01.21.10:197][ 30]LogBlueprintUserMessages: [Countdown_104] 29.679
+[2016.09.09-01.21.10:205][ 31]LogBlueprintUserMessages: [Countdown_104] 29.671
+[2016.09.09-01.21.10:214][ 32]LogBlueprintUserMessages: [Countdown_104] 29.662
+[2016.09.09-01.21.10:222][ 33]LogBlueprintUserMessages: [Countdown_104] 29.654
+[2016.09.09-01.21.10:230][ 34]LogBlueprintUserMessages: [Countdown_104] 29.646
+[2016.09.09-01.21.10:239][ 35]LogBlueprintUserMessages: [Countdown_104] 29.637
+[2016.09.09-01.21.10:247][ 36]LogBlueprintUserMessages: [Countdown_104] 29.629
+[2016.09.09-01.21.10:255][ 37]LogBlueprintUserMessages: [Countdown_104] 29.621
+[2016.09.09-01.21.10:264][ 38]LogBlueprintUserMessages: [Countdown_104] 29.612
+[2016.09.09-01.21.10:272][ 39]LogBlueprintUserMessages: [Countdown_104] 29.604
+[2016.09.09-01.21.10:280][ 40]LogBlueprintUserMessages: [Countdown_104] 29.596
+[2016.09.09-01.21.10:289][ 41]LogBlueprintUserMessages: [Countdown_104] 29.587
+[2016.09.09-01.21.10:297][ 42]LogBlueprintUserMessages: [Countdown_104] 29.579
+[2016.09.09-01.21.10:305][ 43]LogBlueprintUserMessages: [Countdown_104] 29.571
+[2016.09.09-01.21.10:314][ 44]LogBlueprintUserMessages: [Countdown_104] 29.562
+[2016.09.09-01.21.10:322][ 45]LogBlueprintUserMessages: [Countdown_104] 29.554
+[2016.09.09-01.21.10:330][ 46]LogBlueprintUserMessages: [Countdown_104] 29.546
+[2016.09.09-01.21.10:339][ 47]LogBlueprintUserMessages: [Countdown_104] 29.537
+[2016.09.09-01.21.10:347][ 48]LogBlueprintUserMessages: [Countdown_104] 29.529
+[2016.09.09-01.21.10:355][ 49]LogBlueprintUserMessages: [Countdown_104] 29.521
+[2016.09.09-01.21.10:364][ 50]LogBlueprintUserMessages: [Countdown_104] 29.512
+[2016.09.09-01.21.10:372][ 51]LogBlueprintUserMessages: [Countdown_104] 29.504
+[2016.09.09-01.21.10:381][ 52]LogBlueprintUserMessages: [Countdown_104] 29.496
+[2016.09.09-01.21.10:389][ 53]LogBlueprintUserMessages: [Countdown_104] 29.487
+[2016.09.09-01.21.10:397][ 54]LogBlueprintUserMessages: [Countdown_104] 29.479
+[2016.09.09-01.21.10:405][ 55]LogBlueprintUserMessages: [Countdown_104] 29.471
+[2016.09.09-01.21.10:414][ 56]LogBlueprintUserMessages: [Countdown_104] 29.462
+[2016.09.09-01.21.10:422][ 57]LogBlueprintUserMessages: [Countdown_104] 29.454
+[2016.09.09-01.21.10:431][ 58]LogBlueprintUserMessages: [Countdown_104] 29.446
+[2016.09.09-01.21.10:439][ 59]LogBlueprintUserMessages: [Countdown_104] 29.437
+[2016.09.09-01.21.10:447][ 60]LogBlueprintUserMessages: [Countdown_104] 29.429
+[2016.09.09-01.21.10:455][ 61]LogBlueprintUserMessages: [Countdown_104] 29.421
+[2016.09.09-01.21.10:464][ 62]LogBlueprintUserMessages: [Countdown_104] 29.412
+[2016.09.09-01.21.10:472][ 63]LogBlueprintUserMessages: [Countdown_104] 29.404
+[2016.09.09-01.21.10:481][ 64]LogBlueprintUserMessages: [Countdown_104] 29.395
+[2016.09.09-01.21.10:489][ 65]LogBlueprintUserMessages: [Countdown_104] 29.387
+[2016.09.09-01.21.10:498][ 66]LogBlueprintUserMessages: [Countdown_104] 29.379
+[2016.09.09-01.21.10:506][ 67]LogBlueprintUserMessages: [Countdown_104] 29.37
+[2016.09.09-01.21.10:514][ 68]LogBlueprintUserMessages: [Countdown_104] 29.362
+[2016.09.09-01.21.10:522][ 69]LogBlueprintUserMessages: [Countdown_104] 29.354
+[2016.09.09-01.21.10:531][ 70]LogBlueprintUserMessages: [Countdown_104] 29.345
+[2016.09.09-01.21.10:539][ 71]LogBlueprintUserMessages: [Countdown_104] 29.337
+[2016.09.09-01.21.10:548][ 72]LogBlueprintUserMessages: [Countdown_104] 29.329
+[2016.09.09-01.21.10:556][ 73]LogBlueprintUserMessages: [Countdown_104] 29.32
+[2016.09.09-01.21.10:564][ 74]LogBlueprintUserMessages: [Countdown_104] 29.312
+[2016.09.09-01.21.10:572][ 75]LogBlueprintUserMessages: [Countdown_104] 29.304
+[2016.09.09-01.21.10:581][ 76]LogBlueprintUserMessages: [Countdown_104] 29.295
+[2016.09.09-01.21.10:589][ 77]LogBlueprintUserMessages: [Countdown_104] 29.287
+[2016.09.09-01.21.10:597][ 78]LogBlueprintUserMessages: [Countdown_104] 29.279
+[2016.09.09-01.21.10:606][ 79]LogBlueprintUserMessages: [Countdown_104] 29.27
+[2016.09.09-01.21.10:614][ 80]LogBlueprintUserMessages: [Countdown_104] 29.262
+[2016.09.09-01.21.10:623][ 81]LogBlueprintUserMessages: [Countdown_104] 29.254
+[2016.09.09-01.21.10:632][ 82]LogBlueprintUserMessages: [Countdown_104] 29.244
+[2016.09.09-01.21.10:640][ 83]LogBlueprintUserMessages: [Countdown_104] 29.236
+[2016.09.09-01.21.10:649][ 84]LogBlueprintUserMessages: [Countdown_104] 29.227
+[2016.09.09-01.21.10:657][ 85]LogBlueprintUserMessages: [Countdown_104] 29.219
+[2016.09.09-01.21.10:666][ 86]LogBlueprintUserMessages: [Countdown_104] 29.21
+[2016.09.09-01.21.10:675][ 87]LogBlueprintUserMessages: [Countdown_104] 29.202
+[2016.09.09-01.21.10:683][ 88]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+
+[2016.09.09-01.21.10:683][ 88]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+
+[2016.09.09-01.21.10:684][ 88]LogBlueprintUserMessages: [Countdown_104] 29.193
+[2016.09.09-01.21.10:692][ 89]LogBlueprintUserMessages: [Countdown_104] 29.184
+[2016.09.09-01.21.10:700][ 90]LogBlueprintUserMessages: [Countdown_104] 29.176
+[2016.09.09-01.21.10:709][ 91]LogBlueprintUserMessages: [Countdown_104] 29.167
+[2016.09.09-01.21.10:717][ 92]LogBlueprintUserMessages: [Countdown_104] 29.159
+[2016.09.09-01.21.10:726][ 93]LogBlueprintUserMessages: [Countdown_104] 29.15
+[2016.09.09-01.21.10:734][ 94]LogBlueprintUserMessages: [Countdown_104] 29.142
+[2016.09.09-01.21.10:742][ 95]LogBlueprintUserMessages: [Countdown_104] 29.134
+[2016.09.09-01.21.10:751][ 96]LogBlueprintUserMessages: [Countdown_104] 29.125
+[2016.09.09-01.21.10:759][ 97]LogBlueprintUserMessages: [Countdown_104] 29.117
+[2016.09.09-01.21.10:767][ 98]LogBlueprintUserMessages: [Countdown_104] 29.109
+[2016.09.09-01.21.10:776][ 99]LogBlueprintUserMessages: [Countdown_104] 29.1
+[2016.09.09-01.21.10:784][100]LogBlueprintUserMessages: [Countdown_104] 29.092
+[2016.09.09-01.21.10:793][101]LogBlueprintUserMessages: [Countdown_104] 29.083
+[2016.09.09-01.21.10:801][102]LogBlueprintUserMessages: [Countdown_104] 29.075
+[2016.09.09-01.21.10:810][103]LogBlueprintUserMessages: [Countdown_104] 29.067
+[2016.09.09-01.21.10:818][104]LogBlueprintUserMessages: [Countdown_104] 29.058
+[2016.09.09-01.21.10:826][105]LogBlueprintUserMessages: [Countdown_104] 29.05
+[2016.09.09-01.21.10:834][106]LogBlueprintUserMessages: [Countdown_104] 29.042
+[2016.09.09-01.21.10:843][107]LogBlueprintUserMessages: [Countdown_104] 29.033
+[2016.09.09-01.21.10:851][108]LogBlueprintUserMessages: [Countdown_104] 29.025
+[2016.09.09-01.21.10:860][109]LogBlueprintUserMessages: [Countdown_104] 29.016
+[2016.09.09-01.21.10:868][110]LogBlueprintUserMessages: [Countdown_104] 29.008
+[2016.09.09-01.21.10:877][111]LogBlueprintUserMessages: [Countdown_104] 29
+[2016.09.09-01.21.10:885][112]LogBlueprintUserMessages: [Countdown_104] 28.991
+[2016.09.09-01.21.10:893][113]LogBlueprintUserMessages: [Countdown_104] 28.983
+[2016.09.09-01.21.10:901][114]LogBlueprintUserMessages: [Countdown_104] 28.975
+[2016.09.09-01.21.10:910][115]LogBlueprintUserMessages: [Countdown_104] 28.966
+[2016.09.09-01.21.10:918][116]LogBlueprintUserMessages: [Countdown_104] 28.958
+[2016.09.09-01.21.10:926][117]LogBlueprintUserMessages: [Countdown_104] 28.95
+[2016.09.09-01.21.10:935][118]LogBlueprintUserMessages: [Countdown_104] 28.941
+[2016.09.09-01.21.10:943][119]LogBlueprintUserMessages: [Countdown_104] 28.933
+[2016.09.09-01.21.10:952][120]LogBlueprintUserMessages: [Countdown_104] 28.925
+[2016.09.09-01.21.11:124][120]LogCrashTracker: 
+
+
+[2016.09.09-01.21.11:124][120]LogCrashTracker: 
+
+
+[2016.09.09-01.21.11:124][120]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.09.09-01.21.11:143][120]LogExit: Executing StaticShutdownAfterError
+[2016.09.09-01.21.11:147][120]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.09.09-01.21.11:148][120]Log file closed, 09/09/16 13:21:11
